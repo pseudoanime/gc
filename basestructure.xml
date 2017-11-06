@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <supply_date>2017-11-01</supply_date>
+    <records>
+        <record>
+            <personalisation_flags>
+                <trigger>100</trigger>
+                <brander_code>LGC</brander_code>
+                <plan_type>Value</plan_type>
+                <payment_type>Single payment</payment_type>
+                <payment_party>Plan Holder</payment_party>
+                <payment_status></payment_status>
+                <nationality>Scottish</nationality>
+            </personalisation_flags>
+            <letter_information>
+                <address_information>
+                    <detail_information type="member_details">
+                        <title>Mr</title>
+                        <first_name>Joe</first_name>
+                        <last_name>Bloggs</last_name>
+                        <address_line_1>123 Example Street</address_line_1>
+                        <postcode>AB1 1ZZ</postcode>
+                        <email>abc@gmail.com</email>
+                        <dob>1900-01-01</dob>
+                        <religion>Religion name</religion>
+                    </detail_information>
+                    <detail_information type="send_to">
+                        <title>Mr</title>
+                        <first_name>John</first_name>
+                        <last_name>Doe</last_name>
+                        <address_line_1>123 Example Street</address_line_1>
+                        <address_line_2>Example Town</address_line_2>
+                        <postcode>AB1 1ZZ</postcode>
+                        <email>abc@gmail.com</email>
+                    </detail_information>
+                    <detail_information type="funeral_director">
+                        <title>Mr</title>
+                        <first_name>Joe</first_name>
+                        <last_name>Bloggs</last_name>
+                        <address_line_1>123 Example Street</address_line_1>
+                        <address_line_2>Example</address_line_2>
+                        <address_line_3>Example</address_line_3>
+                        <address_line_4>Example</address_line_4>
+                        <postcode>AA1 2BB</postcode>
+                        <phone>123-123-123</phone>
+                        <email>abc@gmail.com</email>
+                    </detail_information>
+                    <detail_information type="representative">
+                        <title>Mr</title>
+                        <first_name>John</first_name>
+                        <last_name>Doe</last_name>
+                        <address_line_1>123 Example Street</address_line_1>
+                        <postcode>AB1 1ZZ</postcode>
+                        <email>abc@gmail.com</email>
+                        <relationship>Parent</relationship>
+                    </detail_information>
+                    <detail_information type="next_of_kin">
+                        <title>Mr</title>
+                        <first_name>John</first_name>
+                        <last_name>Doe</last_name>
+                        <address_line_1>123 Example Street</address_line_1>
+                        <postcode>AB1 1ZZ</postcode>
+                        <email>abc@gmail.com</email>
+                        <relationship>Father</relationship>
+                    </detail_information>
+                    <detail_information type="grave_owner">
+                        <title>Mr</title>
+                        <first_name>Joe</first_name>
+                        <last_name>Bloggs</last_name>
+                        <address_line_1>123 Example Street</address_line_1>
+                        <address_line_2></address_line_2>
+                        <address_line_3></address_line_3>
+                        <address_line_4></address_line_4>
+                        <postcode>AB1 1ZZ</postcode>
+                        <email>abc@gmail.com</email>
+                    </detail_information>
+                    <detail_information type="church">
+                        <title>Mr</title>
+                        <first_name>Clergy Details</first_name>
+                        <last_name>Clergy Details</last_name>
+                        <address_line_1>Church Details</address_line_1>
+                        <address_line_2>Church Details</address_line_2>
+                        <postcode>AB1 1ZZ</postcode>
+                        <phone>123-123-123</phone>
+                    </detail_information>
+                </address_information>
+                <financial_information>
+                    <amount>TO BE FILLED IN</amount>
+                    <monthly_payment>300.09</monthly_payment>
+                    <dd_start_month>October 2017</dd_start_month>
+                    <provider>AXA Wealth</provider>
+                </financial_information>
+                <plan_details>
+                    <user_name>HMC</user_name>
+                    <sp_overpayment>TO BE CONFIRMED</sp_overpayment>
+                    <rbl_donation>TO BE CONFIRMED</rbl_donation>
+                    <sold_by>ABC</sold_by>
+                    <plan_number>20052035</plan_number>
+                    <date_signed>2017-11-01</date_signed>
+                    <application_date>2017-11-01</application_date>
+                    <start_date>2017-11-01</start_date>
+                    <five_year_guarantee>TO BE CONFIRMED</five_year_guarantee>
+                    <service>Service Information</service>
+                    <car_number>1</car_number>
+                    <Burial cemetery="Cemetery name" coffin_type="Coffin Type" grave_owned="Y" grave_class="Grave class" grave_section="Grave section"/>
+                    <lair_number>12345</lair_number>
+                    <certificate_number>12345</certificate_number>
+                    <additional_information>
+                        <additional_info_1></additional_info_1>
+                        <additional_info_2></additional_info_2>
+                        <additional_info_3></additional_info_3>
+                        <additional_info_4></additional_info_4>
+                        <additional_info_5></additional_info_5>
+                        <additional_info_6></additional_info_6>
+                    </additional_information>
+                    <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
+                    <payment_method>information</payment_method>
+                    <disclaimer>Disclaimer</disclaimer>
+                    <includes>TO BE CONFIRMED</includes>
+                    <excludes>TO BE CONFIRMED</excludes>
+                </plan_details>
+            </letter_information>
+        </record>
+        <record>
+            <personalisation_flags>
+                <trigger>100</trigger>
+                <brander_code>LGC</brander_code>
+                <plan_type>Value</plan_type>
+                <payment_type>Single payment</payment_type>
+                <payment_party>Plan Holder</payment_party>
+                <payment_status></payment_status>
+                <nationality>Scottish</nationality>
+            </personalisation_flags>
+            <letter_information>
+                <address_information>
+                    <detail_information type="member_details">
+                        <title>Mr</title>
+                        <first_name>Joe</first_name>
+                        <last_name>Bloggs</last_name>
+                        <address_line_1>123 Example Street</address_line_1>
+                        <postcode>AB1 1ZZ</postcode>
+                        <email>abc@gmail.com</email>
+                        <dob>1900-01-01</dob>
+                        <religion>Religion name</religion>
+                    </detail_information>
+                    <detail_information type="send_to">
+                        <title>Mr</title>
+                        <first_name>John</first_name>
+                        <last_name>Doe</last_name>
+                        <address_line_1>123 Example Street</address_line_1>
+                        <address_line_2>Example Town</address_line_2>
+                        <postcode>AB1 1ZZ</postcode>
+                        <email>abc@gmail.com</email>
+                    </detail_information>
+                    <detail_information type="fd_details">
+                        <title>Mr</title>
+                        <first_name>Joe</first_name>
+                        <last_name>Bloggs</last_name>
+                        <address_line_1>123 Example Street</address_line_1>
+                        <address_line_2>Example</address_line_2>
+                        <address_line_3>Example</address_line_3>
+                        <address_line_4>Example</address_line_4>
+                        <postcode>AA1 2BB</postcode>
+                        <phone>123-123-123</phone>
+                        <email>abc@gmail.com</email>
+                    </detail_information>
+                    <detail_information type="representative">
+                        <title>Mr</title>
+                        <first_name>John</first_name>
+                        <last_name>Doe</last_name>
+                        <address_line_1>123 Example Street</address_line_1>
+                        <postcode>AB1 1ZZ</postcode>
+                        <email>abc@gmail.com</email>
+                        <relationship>Parent</relationship>
+                    </detail_information>
+                </address_information>
+                <financial_information>
+                    <amount>TO BE FILLED IN</amount>
+                    <monthly_payment>300.09</monthly_payment>
+                    <dd_start_month>October 2017</dd_start_month>
+                    <provider>AXA Wealth</provider>
+                </financial_information>
+                <plan_details>
+                    <user_name>HMC</user_name>
+                    <sp_overpayment>TO BE CONFIRMED</sp_overpayment>
+                    <rbl_donation>TO BE CONFIRMED</rbl_donation>
+                    <sold_by>ABC</sold_by>
+                    <plan_number>20052035</plan_number>
+                    <date_signed>2017-11-01</date_signed>
+                    <application_date>2017-11-01</application_date>
+                    <start_date>2017-11-01</start_date>
+                    <five_year_guarantee>TO BE CONFIRMED</five_year_guarantee>
+                    <service>Service Information</service>
+                    <car_number>2</car_number>
+                    <Cremation crematorium="Crematorium Name" urn_type="Urn Type" disposal="Disposal Type"/>
+                    <lair_number>12345</lair_number>
+                    <certificate_number>12345</certificate_number>
+                    <memorial_type>abc</memorial_type>
+                    <additional_information>
+                        <additional_info_1></additional_info_1>
+                        <additional_info_2></additional_info_2>
+                        <additional_info_3></additional_info_3>
+                        <additional_info_4></additional_info_4>
+                        <additional_info_5></additional_info_5>
+                        <additional_info_6></additional_info_6>
+                    </additional_information>
+                    <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
+                    <payment_method>information</payment_method>
+                    <disclaimer>Disclaimer</disclaimer>
+                    <includes>TO BE CONFIRMED</includes>
+                    <excludes>TO BE CONFIRMED</excludes>
+                </plan_details>
+            </letter_information>
+        </record>
+    </records>
+</data>
