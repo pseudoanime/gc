@@ -42,8 +42,8 @@
                         <address_line_3>Example</address_line_3>
                         <address_line_4>Example</address_line_4>
                         <postcode>AA1 2BB</postcode>
-                        <phone>123-123-123</phone>
                         <email>abc@gmail.com</email>
+                        <phone>123-123-123</phone>
                     </detail_information>
                     <detail_information type="representative">
                         <title>Mr</title>
@@ -102,9 +102,7 @@
                     <five_year_guarantee>TO BE CONFIRMED</five_year_guarantee>
                     <service>Service Information</service>
                     <car_number>1</car_number>
-                    <Burial cemetery="Cemetery name" coffin_type="Coffin Type" grave_owned="Y" grave_class="Grave class" grave_section="Grave section"/>
-                    <lair_number>12345</lair_number>
-                    <certificate_number>12345</certificate_number>
+                    <Burial cemetery="Cemetery name" coffin_type="Coffin Type" grave_owned="Y" grave_class="Grave class" grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
                     <additional_information>
                         <additional_info_1></additional_info_1>
                         <additional_info_2></additional_info_2>
@@ -143,16 +141,7 @@
                         <dob>1900-01-01</dob>
                         <religion>Religion name</religion>
                     </detail_information>
-                    <detail_information type="send_to">
-                        <title>Mr</title>
-                        <first_name>John</first_name>
-                        <last_name>Doe</last_name>
-                        <address_line_1>123 Example Street</address_line_1>
-                        <address_line_2>Example Town</address_line_2>
-                        <postcode>AB1 1ZZ</postcode>
-                        <email>abc@gmail.com</email>
-                    </detail_information>
-                    <detail_information type="fd_details">
+                    <detail_information type="funeral_director">
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
@@ -161,8 +150,8 @@
                         <address_line_3>Example</address_line_3>
                         <address_line_4>Example</address_line_4>
                         <postcode>AA1 2BB</postcode>
-                        <phone>123-123-123</phone>
                         <email>abc@gmail.com</email>
+                        <phone>123-123-123</phone>
                     </detail_information>
                     <detail_information type="representative">
                         <title>Mr</title>
@@ -193,8 +182,6 @@
                     <service>Service Information</service>
                     <car_number>2</car_number>
                     <Cremation crematorium="Crematorium Name" urn_type="Urn Type" disposal="Disposal Type"/>
-                    <lair_number>12345</lair_number>
-                    <certificate_number>12345</certificate_number>
                     <memorial_type>abc</memorial_type>
                     <additional_information>
                         <additional_info_1></additional_info_1>

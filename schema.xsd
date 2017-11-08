@@ -30,7 +30,7 @@
                                                             <xs:sequence>
                                                                 <xs:element name="detail_information" maxOccurs="unbounded" minOccurs="1">
                                                                     <xs:complexType>
-                                                                        <xs:all>
+                                                                        <xs:sequence>
                                                                             <xs:element type="xs:string" name="title"/>
                                                                             <xs:element type="xs:string" name="first_name"/>
                                                                             <xs:element type="xs:string" name="last_name"/>
@@ -44,7 +44,7 @@
                                                                             <xs:element type="xs:string" name="phone" minOccurs="0"/>
                                                                             <xs:element type="xs:string" name="religion" minOccurs="0"/>
                                                                             <xs:element type="xs:string" name="relationship" minOccurs="0"/>
-                                                                        </xs:all>
+                                                                        </xs:sequence>
                                                                         <xs:attribute type="xs:string" name="type" use="required"/>
                                                                     </xs:complexType>
                                                                 </xs:element>
@@ -96,13 +96,13 @@
                                                                                     <xs:attribute type="xs:string" name="grave_owned" use="required"/>
                                                                                     <xs:attribute type="xs:string" name="grave_class" use="required"/>
                                                                                     <xs:attribute type="xs:string" name="grave_section" use="required"/>
+                                                                                    <xs:attribute type="xs:string" name="lair_number" use="optional"/>
+                                                                                    <xs:attribute type="xs:string" name="certificate_number" use="optional"/>
                                                                                 </xs:extension>
                                                                             </xs:simpleContent>
                                                                         </xs:complexType>
                                                                     </xs:element>
                                                                 </xs:choice>
-                                                                <xs:element type="xs:short" name="lair_number"/>
-                                                                <xs:element type="xs:short" name="certificate_number"/>
                                                                 <xs:element type="xs:string" name="memorial_type" minOccurs="0"/>
                                                                 <xs:element name="additional_information">
                                                                     <xs:complexType>
