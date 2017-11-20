@@ -6,6 +6,7 @@
             <personalisation_flags>
                 <trigger>100</trigger>
                 <brander_code>LGC</brander_code>
+                <plan_category>ABC</plan_category>
                 <plan_type>Value</plan_type>
                 <payment_type>Single payment</payment_type>
                 <payment_party>Plan Holder</payment_party>
@@ -14,7 +15,7 @@
             </personalisation_flags>
             <letter_information>
                 <address_information>
-                    <detail_information type="member_details">
+                    <Person type="planholder">
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
@@ -23,17 +24,8 @@
                         <email>abc@gmail.com</email>
                         <dob>1900-01-01</dob>
                         <religion>Religion name</religion>
-                    </detail_information>
-                    <detail_information type="send_to">
-                        <title>Mr</title>
-                        <first_name>John</first_name>
-                        <last_name>Doe</last_name>
-                        <address_line_1>123 Example Street</address_line_1>
-                        <address_line_2>Example Town</address_line_2>
-                        <postcode>AB1 1ZZ</postcode>
-                        <email>abc@gmail.com</email>
-                    </detail_information>
-                    <detail_information type="funeral_director">
+                    </Person>
+                    <Person type="funeral_director">
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
@@ -44,8 +36,8 @@
                         <postcode>AA1 2BB</postcode>
                         <email>abc@gmail.com</email>
                         <phone>123-123-123</phone>
-                    </detail_information>
-                    <detail_information type="representative">
+                    </Person>
+                    <Person type="representative">
                         <title>Mr</title>
                         <first_name>John</first_name>
                         <last_name>Doe</last_name>
@@ -53,8 +45,8 @@
                         <postcode>AB1 1ZZ</postcode>
                         <email>abc@gmail.com</email>
                         <relationship>Parent</relationship>
-                    </detail_information>
-                    <detail_information type="next_of_kin">
+                    </Person>
+                    <Person type="next_of_kin">
                         <title>Mr</title>
                         <first_name>John</first_name>
                         <last_name>Doe</last_name>
@@ -62,8 +54,8 @@
                         <postcode>AB1 1ZZ</postcode>
                         <email>abc@gmail.com</email>
                         <relationship>Father</relationship>
-                    </detail_information>
-                    <detail_information type="grave_owner">
+                    </Person>
+                    <Person type="grave_owner">
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
@@ -73,16 +65,7 @@
                         <address_line_4></address_line_4>
                         <postcode>AB1 1ZZ</postcode>
                         <email>abc@gmail.com</email>
-                    </detail_information>
-                    <detail_information type="church">
-                        <title>Mr</title>
-                        <first_name>Clergy Details</first_name>
-                        <last_name>Clergy Details</last_name>
-                        <address_line_1>Church Details</address_line_1>
-                        <address_line_2>Church Details</address_line_2>
-                        <postcode>AB1 1ZZ</postcode>
-                        <phone>123-123-123</phone>
-                    </detail_information>
+                    </Person>
                 </address_information>
                 <financial_information>
                     <amount>TO BE FILLED IN</amount>
@@ -102,7 +85,9 @@
                     <five_year_guarantee>TO BE CONFIRMED</five_year_guarantee>
                     <service>Service Information</service>
                     <car_number>1</car_number>
-                    <Burial cemetery="Cemetery name" coffin_type="Coffin Type" grave_owned="Y" grave_class="Grave class" grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
+                    <church name="name of church" clergy="clergy name" telephone="123456789"/>
+                    <Burial cemetery="Cemetery name" coffin_type="Coffin Type" grave_owned="Y" grave_class="Grave class"
+                            grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
                     <additional_information>
                         <additional_info_1></additional_info_1>
                         <additional_info_2></additional_info_2>
@@ -123,6 +108,7 @@
             <personalisation_flags>
                 <trigger>100</trigger>
                 <brander_code>LGC</brander_code>
+                <plan_category>ABC</plan_category>
                 <plan_type>Value</plan_type>
                 <payment_type>Single payment</payment_type>
                 <payment_party>Plan Holder</payment_party>
@@ -131,7 +117,7 @@
             </personalisation_flags>
             <letter_information>
                 <address_information>
-                    <detail_information type="member_details">
+                    <Person type="planholder">
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
@@ -140,8 +126,8 @@
                         <email>abc@gmail.com</email>
                         <dob>1900-01-01</dob>
                         <religion>Religion name</religion>
-                    </detail_information>
-                    <detail_information type="funeral_director">
+                    </Person>
+                    <Person type="funeral_director">
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
@@ -152,8 +138,8 @@
                         <postcode>AA1 2BB</postcode>
                         <email>abc@gmail.com</email>
                         <phone>123-123-123</phone>
-                    </detail_information>
-                    <detail_information type="representative">
+                    </Person>
+                    <Person type="representative">
                         <title>Mr</title>
                         <first_name>John</first_name>
                         <last_name>Doe</last_name>
@@ -161,7 +147,7 @@
                         <postcode>AB1 1ZZ</postcode>
                         <email>abc@gmail.com</email>
                         <relationship>Parent</relationship>
-                    </detail_information>
+                    </Person>
                 </address_information>
                 <financial_information>
                     <amount>TO BE FILLED IN</amount>
@@ -191,7 +177,6 @@
                         <additional_info_5></additional_info_5>
                         <additional_info_6></additional_info_6>
                     </additional_information>
-                    <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
                     <payment_method>information</payment_method>
                     <disclaimer>Disclaimer</disclaimer>
                     <includes>TO BE CONFIRMED</includes>
