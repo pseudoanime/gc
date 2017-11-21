@@ -131,8 +131,13 @@
                                                                 <xs:element type="xs:string" name="third_party_allowance" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="payment_method"/>
                                                                 <xs:element type="xs:string" name="disclaimer"/>
-                                                                <xs:element type="xs:string" name="includes"/>
-                                                                <xs:element type="xs:string" name="excludes"/>
+                                                                <xs:element name="service_requests" minOccurs="0">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="sr" minOccurs="1" maxOccurs="unbounded"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>

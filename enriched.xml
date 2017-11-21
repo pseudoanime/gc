@@ -103,6 +103,14 @@
                         <sr>1</sr>
                         <sr>2</sr>
                     </service_requests>
+                    <includes>
+                        <include>1</include>
+                        <include>2</include>
+                    </includes>
+                    <excludes>
+                        <exclude>1</exclude>
+                        <exclude>2</exclude>
+                    </excludes>
                 </plan_details>
             </letter_information>
         </record>
@@ -181,6 +189,12 @@
                     </additional_information>
                     <payment_method>information</payment_method>
                     <disclaimer>Disclaimer</disclaimer>
+                    <includes>
+                        <include>1</include>
+                    </includes>
+                    <excludes>
+                        <exclude>1</exclude>
+                    </excludes>
                 </plan_details>
             </letter_information>
         </record>
