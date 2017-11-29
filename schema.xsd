@@ -67,8 +67,8 @@
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element type="xs:string" name="user_name"/>
-                                                                <xs:element type="xs:string" name="sp_overpayment" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="rbl_donation" minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="sp_overpayment" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="sold_by"/>
                                                                 <xs:element type="xs:int" name="plan_number"/>
                                                                 <xs:element type="xs:date" name="date_signed"/>

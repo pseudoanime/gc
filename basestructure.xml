@@ -76,8 +76,7 @@
                 </financial_information>
                 <plan_details>
                     <user_name>HMC</user_name>
-                    <sp_overpayment>TO BE CONFIRMED</sp_overpayment>
-                    <rbl_donation>TO BE CONFIRMED</rbl_donation>
+                    <rbl_donation>Y</rbl_donation>
                     <sold_by>ABC</sold_by>
                     <plan_number>20052035</plan_number>
                     <date_signed>2017-11-01</date_signed>
@@ -155,8 +154,8 @@
                 </financial_information>
                 <plan_details>
                     <user_name>HMC</user_name>
-                    <sp_overpayment>TO BE CONFIRMED</sp_overpayment>
-                    <rbl_donation>TO BE CONFIRMED</rbl_donation>
+                    <rbl_donation>Y</rbl_donation>
+                    <sp_overpayment>VALUE</sp_overpayment>
                     <sold_by>ABC</sold_by>
                     <plan_number>20052035</plan_number>
                     <date_signed>2017-11-01</date_signed>
