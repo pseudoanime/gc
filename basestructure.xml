@@ -89,17 +89,11 @@
                     <church name="name of church" clergy="clergy name" telephone="123456789"/>
                     <Burial cemetery="Cemetery name" coffin_type="Coffin Type" grave_owned="Y" grave_class="Grave class"
                             grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
-                    <additional_information>
-                        <additional_info_1></additional_info_1>
-                        <additional_info_2></additional_info_2>
-                        <additional_info_3></additional_info_3>
-                        <additional_info_4></additional_info_4>
-                        <additional_info_5></additional_info_5>
-                        <additional_info_6></additional_info_6>
-                    </additional_information>
+                    <additional_information>Additional information on the plan</additional_information>
                     <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
                     <payment_method>information</payment_method>
                     <disclaimer>Disclaimer</disclaimer>
+                    <tc>TC_SYG_INSERT</tc>
                     <select_reserve>
                         <sr>1</sr>
                         <sr>2</sr>
@@ -173,16 +167,10 @@
                     <car_number>2</car_number>
                     <Cremation crematorium="Crematorium Name" urn_type="Urn Type" disposal="Disposal Type"/>
                     <memorial_type>abc</memorial_type>
-                    <additional_information>
-                        <additional_info_1></additional_info_1>
-                        <additional_info_2></additional_info_2>
-                        <additional_info_3></additional_info_3>
-                        <additional_info_4></additional_info_4>
-                        <additional_info_5></additional_info_5>
-                        <additional_info_6></additional_info_6>
-                    </additional_information>
+                    <additional_information>Additional information on the plan</additional_information>
                     <payment_method>information</payment_method>
                     <disclaimer>Disclaimer</disclaimer>
+                    <tc>TC_SYG_INSERT</tc>
                 </plan_details>
             </letter_information>
         </record>

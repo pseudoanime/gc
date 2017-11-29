@@ -117,21 +117,11 @@
                                                                     </xs:element>
                                                                 </xs:choice>
                                                                 <xs:element type="xs:string" name="memorial_type" minOccurs="0"/>
-                                                                <xs:element name="additional_information">
-                                                                    <xs:complexType>
-                                                                        <xs:sequence>
-                                                                            <xs:element type="xs:string" name="additional_info_1"/>
-                                                                            <xs:element type="xs:string" name="additional_info_2"/>
-                                                                            <xs:element type="xs:string" name="additional_info_3"/>
-                                                                            <xs:element type="xs:string" name="additional_info_4"/>
-                                                                            <xs:element type="xs:string" name="additional_info_5"/>
-                                                                            <xs:element type="xs:string" name="additional_info_6"/>
-                                                                        </xs:sequence>
-                                                                    </xs:complexType>
-                                                                </xs:element>
+                                                                <xs:element type="xs:string" name="additional_information" minOccurs="0" maxOccurs="1"/>
                                                                 <xs:element type="xs:string" name="third_party_allowance" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="payment_method"/>
                                                                 <xs:element type="xs:string" name="disclaimer"/>
+                                                                <xs:element type="xs:string" name="tc"/>
                                                                 <xs:element name="select_reserve" minOccurs="0">
                                                                     <xs:complexType>
                                                                         <xs:sequence>
