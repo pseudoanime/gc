@@ -8,6 +8,7 @@
                 <brander_code>LGC</brander_code>
                 <plan_category>ABC</plan_category>
                 <plan_type>Value</plan_type>
+                <plan_version></plan_version>
                 <payment_type>Single payment</payment_type>
                 <payment_party>Plan Holder</payment_party>
                 <payment_status></payment_status>
@@ -99,10 +100,10 @@
                     <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
                     <payment_method>information</payment_method>
                     <disclaimer>Disclaimer</disclaimer>
-                    <service_requests>
+                    <select_reserve>
                         <sr>1</sr>
                         <sr>2</sr>
-                    </service_requests>
+                    </select_reserve>
                 </plan_details>
             </letter_information>
         </record>
@@ -112,6 +113,7 @@
                 <brander_code>LGC</brander_code>
                 <plan_category>ABC</plan_category>
                 <plan_type>Value</plan_type>
+                <plan_version></plan_version>
                 <payment_type>Single payment</payment_type>
                 <payment_party>Plan Holder</payment_party>
                 <payment_status></payment_status>

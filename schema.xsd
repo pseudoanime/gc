@@ -16,6 +16,7 @@
                                                     <xs:element type="xs:string" name="brander_code"/>
                                                     <xs:element type="xs:string" name="plan_category"/>
                                                     <xs:element type="xs:string" name="plan_type"/>
+                                                    <xs:element type="xs:string" name="plan_version"/>
                                                     <xs:element type="xs:string" name="payment_type"/>
                                                     <xs:element type="xs:string" name="payment_party"/>
                                                     <xs:element type="xs:string" name="payment_status" minOccurs="0"/>
@@ -131,7 +132,7 @@
                                                                 <xs:element type="xs:string" name="third_party_allowance" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="payment_method"/>
                                                                 <xs:element type="xs:string" name="disclaimer"/>
-                                                                <xs:element name="service_requests" minOccurs="0">
+                                                                <xs:element name="select_reserve" minOccurs="0">
                                                                     <xs:complexType>
                                                                         <xs:sequence>
                                                                             <xs:element type="xs:string" name="sr" minOccurs="1" maxOccurs="unbounded"/>
