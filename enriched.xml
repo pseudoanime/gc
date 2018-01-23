@@ -88,7 +88,8 @@
                     <church name="name of church" clergy="clergy name" telephone="123456789"/>
                     <Burial cemetery="Cemetery name" coffin_type="Coffin Type" grave_owned="Y" grave_class="Grave class"
                             grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
-                    <additional_information>Additional information on the funeral plan eg: music to be played</additional_information>
+                    <additional_information>Additional information on the funeral plan eg: music to be played
+                    </additional_information>
                     <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
                     <payment_method>information</payment_method>
                     <disclaimer>Disclaimer</disclaimer>
@@ -105,6 +106,28 @@
                         <exclude>1</exclude>
                         <exclude>2</exclude>
                     </excludes>
+                    <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
+                        Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
+                        Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
+                        bibendum pellentesque. Nunc blandit condimentum lorem, ut tempus metus tincidunt et. Nullam vel
+                        neque venenatis, malesuada orci tempus, pulvinar odio. Sed et ex cursus velit hendrerit eleifend
+                        a a felis. Aenean dolor urna, fringilla a massa vel, consequat ullamcorper sem. Duis nisi lorem,
+                        placerat vitae nunc quis, congue laoreet magna. Duis ac luctus lorem. Sed eget ex vitae dolor
+                        pellentesque tincidunt eu vel augue. Nullam sed porttitor mauris. Nullam tristique metus id
+                        velit vestibulum, tempor aliquam massa tempor.&#xA;In tincidunt sem ullamcorper erat elementum,
+                        ac pretium urna sodales. Suspendisse a congue nunc.&#xA;Aliquam erat volutpat. Donec dignissim
+                        justo porta sapien faucibus tincidunt. Pellentesque placerat finibus porta. Quisque imperdiet
+                        nibh in felis laoreet, ornare egestas orci faucibus. In sed justo ligula. Donec eget magna ut
+                        turpis bibendum feugiat non non diam. Pellentesque vel nulla nibh. Nam placerat sit amet lorem
+                        at faucibus. Curabitur sed purus dolor. Donec euismo odio nec cursus tristique. Praesent
+                        efficitur congue pulvinar.&#xA;Sed gravida lorem orci, idporta mauris luctus et. Phasellus
+                        blandit, ante a sollicitudinfaucibus, risus justo interdumdui, at fermentum mi risus et dolor.
+                        Etiam interdum tempormattis. Interdum et malesuada fames acante ipsum primis in faucibus. Sed
+                        ultrices, libero quisfacilisis eleifend, ligula arcu pretiumneque, ac dapibus eros mauris a
+                        urna. Vivamus dignissimeuismod eros, in ultrices leo dignissimac. Nunc semper, nulla id sodales
+                        molestie, sapien risusfacilisis sapien, gravida pharetra erosfelis vel arcu. Sed ultricies
+                        maximus eleifend.
+                    </freeform_text>
                 </plan_details>
             </letter_information>
         </record>
