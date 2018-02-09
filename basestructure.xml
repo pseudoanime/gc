@@ -77,6 +77,7 @@
                 </financial_information>
                 <plan_details>
                     <user_name>HMC</user_name>
+                    <promotion>Y</promotion>
                     <rbl_donation>Y</rbl_donation>
                     <sold_by>ABC</sold_by>
                     <plan_number>20052035</plan_number>
@@ -133,7 +134,6 @@
                 <payment_type>Single payment</payment_type>
                 <payment_party>Plan Holder</payment_party>
                 <payment_status></payment_status>
-                <nationality>Scottish</nationality>
             </personalisation_flags>
             <letter_information>
                 <address_information>

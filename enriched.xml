@@ -12,7 +12,6 @@
                 <payment_type>Single payment</payment_type>
                 <payment_party>Plan Holder</payment_party>
                 <payment_status></payment_status>
-                <nationality>Scottish</nationality>
             </personalisation_flags>
             <letter_information>
                 <address_information>
@@ -76,6 +75,7 @@
                 </financial_information>
                 <plan_details>
                     <user_name>HMC</user_name>
+                    <promotion>Y</promotion>
                     <rbl_donation>Y</rbl_donation>
                     <sold_by>ABC</sold_by>
                     <plan_number>20052035</plan_number>
@@ -98,14 +98,6 @@
                         <sr>1</sr>
                         <sr>2</sr>
                     </select_reserve>
-                    <includes>
-                        <include>1</include>
-                        <include>2</include>
-                    </includes>
-                    <excludes>
-                        <exclude>1</exclude>
-                        <exclude>2</exclude>
-                    </excludes>
                     <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
                         Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
                         Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
@@ -141,7 +133,6 @@
                 <payment_type>Single payment</payment_type>
                 <payment_party>Plan Holder</payment_party>
                 <payment_status></payment_status>
-                <nationality>Scottish</nationality>
             </personalisation_flags>
             <letter_information>
                 <address_information>
@@ -201,12 +192,6 @@
                     <payment_method>information</payment_method>
                     <disclaimer>Disclaimer</disclaimer>
                     <tc>TC_SYG_INSERT</tc>
-                    <includes>
-                        <include>1</include>
-                    </includes>
-                    <excludes>
-                        <exclude>1</exclude>
-                    </excludes>
                 </plan_details>
             </letter_information>
         </record>

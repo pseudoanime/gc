@@ -20,7 +20,6 @@
                                                     <xs:element type="xs:string" name="payment_type"/>
                                                     <xs:element type="xs:string" name="payment_party"/>
                                                     <xs:element type="xs:string" name="payment_status" minOccurs="0"/>
-                                                    <xs:element type="xs:string" name="nationality"/>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
