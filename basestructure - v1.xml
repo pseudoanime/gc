@@ -19,8 +19,7 @@
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
-                        <address_line_1>123 Example Street</address_line_1>
-                        <postcode>AB1 1ZZ</postcode>
+                        <address>123 Example Street, AB1 1ZZ</address>
                         <email>abc@gmail.com</email>
                         <dob>1900-01-01</dob>
                         <religion>Religion name</religion>
@@ -29,11 +28,7 @@
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
-                        <address_line_1>123 Example Street</address_line_1>
-                        <address_line_2>Example</address_line_2>
-                        <address_line_3>Example</address_line_3>
-                        <address_line_4>Example</address_line_4>
-                        <postcode>AA1 2BB</postcode>
+                        <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
                         <phone>123-123-123</phone>
                     </Person>
@@ -41,8 +36,7 @@
                         <title>Mr</title>
                         <first_name>John</first_name>
                         <last_name>Doe</last_name>
-                        <address_line_1>123 Example Street</address_line_1>
-                        <postcode>AB1 1ZZ</postcode>
+                        <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
                         <relationship>Parent</relationship>
                     </Person>
@@ -50,8 +44,7 @@
                         <title>Mr</title>
                         <first_name>John</first_name>
                         <last_name>Doe</last_name>
-                        <address_line_1>123 Example Street</address_line_1>
-                        <postcode>AB1 1ZZ</postcode>
+                        <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
                         <relationship>Father</relationship>
                     </Person>
@@ -59,25 +52,30 @@
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
-                        <address_line_1>123 Example Street</address_line_1>
-                        <address_line_2></address_line_2>
-                        <address_line_3></address_line_3>
-                        <address_line_4></address_line_4>
-                        <postcode>AB1 1ZZ</postcode>
+                        <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
+                    </Person>
+                    <Person type="seller">
+                        <title>Mr</title>
+                        <first_name>Seller</first_name>
+                        <last_name>Seller</last_name>
+                        <address>Seller address</address>
                     </Person>
                 </address_information>
                 <financial_information>
-                    <amount>TO BE FILLED IN</amount>
-                    <monthly_payment>300.09</monthly_payment>
+                    <account_name>abc</account_name>
+                    <account_number>12345</account_number>
+                    <sort_code>112233</sort_code>
+                    <amount>100</amount>
+                    <discount>10</discount>
+                    <dd_amount>30000</dd_amount>
+                    <dd_monthly_payment>300.09</dd_monthly_payment>
                     <dd_start_month>October 2017</dd_start_month>
-                    <provider>AXA Wealth</provider>
+                    <sp_overpayment>VALUE</sp_overpayment>
                 </financial_information>
                 <plan_details>
-                    <user_name>HMC</user_name>
                     <promotion>Y</promotion>
                     <rbl_donation>Y</rbl_donation>
-                    <sold_by>ABC</sold_by>
                     <plan_number>20052035</plan_number>
                     <date_signed>2017-11-01</date_signed>
                     <application_date>2017-11-01</application_date>
@@ -88,16 +86,12 @@
                     <church name="name of church" clergy="clergy name" telephone="123456789"/>
                     <Burial cemetery="Cemetery name" coffin_type="Coffin Type" grave_owned="Y" grave_class="Grave class"
                             grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
-                    <additional_information>Additional information on the funeral plan eg: music to be played
-                    </additional_information>
+                    <additional_information>Additional information on the plan</additional_information>
                     <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
                     <payment_method>information</payment_method>
+                    <plan_value>1000</plan_value>
                     <disclaimer>Disclaimer</disclaimer>
                     <tc>TC_SYG_INSERT</tc>
-                    <select_reserve>
-                        <sr>1</sr>
-                        <sr>2</sr>
-                    </select_reserve>
                     <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
                         Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
                         Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
@@ -140,8 +134,7 @@
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
-                        <address_line_1>123 Example Street</address_line_1>
-                        <postcode>AB1 1ZZ</postcode>
+                        <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
                         <dob>1900-01-01</dob>
                         <religion>Religion name</religion>
@@ -150,11 +143,7 @@
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
-                        <address_line_1>123 Example Street</address_line_1>
-                        <address_line_2>Example</address_line_2>
-                        <address_line_3>Example</address_line_3>
-                        <address_line_4>Example</address_line_4>
-                        <postcode>AA1 2BB</postcode>
+                        <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
                         <phone>123-123-123</phone>
                     </Person>
@@ -162,23 +151,18 @@
                         <title>Mr</title>
                         <first_name>John</first_name>
                         <last_name>Doe</last_name>
-                        <address_line_1>123 Example Street</address_line_1>
-                        <postcode>AB1 1ZZ</postcode>
+                        <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
                         <relationship>Parent</relationship>
                     </Person>
                 </address_information>
                 <financial_information>
                     <amount>TO BE FILLED IN</amount>
-                    <monthly_payment>300.09</monthly_payment>
+                    <dd_monthly_payment>300.09</dd_monthly_payment>
                     <dd_start_month>October 2017</dd_start_month>
-                    <provider>AXA Wealth</provider>
                 </financial_information>
                 <plan_details>
-                    <user_name>HMC</user_name>
                     <rbl_donation>Y</rbl_donation>
-                    <sp_overpayment>VALUE</sp_overpayment>
-                    <sold_by>ABC</sold_by>
                     <plan_number>20052035</plan_number>
                     <date_signed>2017-11-01</date_signed>
                     <application_date>2017-11-01</application_date>
@@ -190,6 +174,7 @@
                     <memorial_type>abc</memorial_type>
                     <additional_information>Additional information on the plan</additional_information>
                     <payment_method>information</payment_method>
+                    <plan_value>1000</plan_value>
                     <disclaimer>Disclaimer</disclaimer>
                     <tc>TC_SYG_INSERT</tc>
                 </plan_details>
