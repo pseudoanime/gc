@@ -89,7 +89,6 @@
                     <additional_information>Additional information on the plan</additional_information>
                     <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
                     <payment_method>information</payment_method>
-                    <plan_value>1000</plan_value>
                     <disclaimer>Disclaimer</disclaimer>
                     <tc>TC_SYG_INSERT</tc>
                     <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
@@ -174,7 +173,6 @@
                     <memorial_type>abc</memorial_type>
                     <additional_information>Additional information on the plan</additional_information>
                     <payment_method>information</payment_method>
-                    <plan_value>1000</plan_value>
                     <disclaimer>Disclaimer</disclaimer>
                     <tc>TC_SYG_INSERT</tc>
                 </plan_details>

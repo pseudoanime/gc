@@ -168,7 +168,6 @@
                                                                 <xs:element type="xs:string" name="memorial_type" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="additional_information"/>
                                                                 <xs:element type="xs:string" name="third_party_allowance" minOccurs="0"/>
-                                                                <xs:element type="xs:short" name="plan_value"/>
                                                                 <xs:element type="xs:string" name="disclaimer"/>
                                                                 <xs:element type="xs:string" name="tc"/>
                                                                 <xs:element type="xs:string" name="freeform_text" minOccurs="0"/>

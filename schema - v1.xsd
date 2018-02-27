@@ -118,7 +118,6 @@
                                                                 <xs:element type="xs:string" name="additional_information" minOccurs="0" maxOccurs="1"/>
                                                                 <xs:element type="xs:string" name="third_party_allowance" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="payment_method"/>
-                                                                <xs:element type="xs:string" name="plan_value"/>
                                                                 <xs:element type="xs:string" name="disclaimer"/>
                                                                 <xs:element type="xs:string" name="tc"/>
                                                                 <xs:element type="xs:string" name="freeform_text" minOccurs="0" maxOccurs="1"/>

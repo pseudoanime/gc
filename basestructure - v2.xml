@@ -86,7 +86,6 @@
                             grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
                     <additional_information>Additional information on the plan</additional_information>
                     <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
-                    <plan_value>1000</plan_value>
                     <disclaimer>Disclaimer</disclaimer>
                     <tc>TC_SYG_INSERT</tc>
                     <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
@@ -169,7 +168,6 @@
                     <Cremation crematorium="Crematorium Name" urn_type="Urn Type" disposal="Disposal Type"/>
                     <memorial_type>abc</memorial_type>
                     <additional_information>Additional information on the plan</additional_information>
-                    <plan_value>1000</plan_value>
                     <disclaimer>Disclaimer</disclaimer>
                     <tc>TC_SYG_INSERT</tc>
                 </plan_details>
