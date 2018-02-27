@@ -64,7 +64,7 @@
                     <account_name>abc</account_name>
                     <account_number>12345</account_number>
                     <sort_code>112233</sort_code>
-                    <amount>100</amount>
+                    <upfront_payment>100</upfront_payment>
                     <discount>10</discount>
                     <dd_amount>30000</dd_amount>
                     <dd_monthly_payment>300.09</dd_monthly_payment>
@@ -154,7 +154,6 @@
                 </address_information>
                 <financial_information>
                     <payment_method>information</payment_method>
-                    <amount>TO BE FILLED IN</amount>
                     <dd_monthly_payment>300.09</dd_monthly_payment>
                     <dd_start_month>October 2017</dd_start_month>
                 </financial_information>
