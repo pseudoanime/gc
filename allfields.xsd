@@ -1,0 +1,214 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="data">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:date" name="supply_date"/>
+                <xs:element name="records">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="record" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="personalisation_flags">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:integer" name="trigger"/>
+                                                    <xs:element type="xs:string" name="brander_code"/>
+                                                    <xs:element type="xs:string" name="plan_category"/>
+                                                    <xs:element type="xs:string" name="plan_type"/>
+                                                    <xs:element type="xs:string" name="plan_version"/>
+                                                    <xs:element type="xs:string" name="payment_type"/>
+                                                    <xs:element type="xs:string" name="payment_party"/>
+                                                    <xs:element type="xs:string" name="payment_status" minOccurs="0"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="letter_information">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="address_information">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Person" maxOccurs="unbounded"
+                                                                            minOccurs="1">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="title"/>
+                                                                            <xs:element type="xs:string"
+                                                                                        name="first_name"/>
+                                                                            <xs:element type="xs:string"
+                                                                                        name="last_name"/>
+                                                                            <xs:element type="xs:string"
+                                                                                        name="address"/>
+                                                                            <xs:element type="xs:string" name="email"
+                                                                                        minOccurs="0"/>
+
+                                                                            <xs:element name="dob" minOccurs="0">
+                                                                                <xs:simpleType>
+                                                                                    <xs:union>
+                                                                                        <xs:simpleType>
+                                                                                            <xs:restriction
+                                                                                                    base="xs:date"/>
+                                                                                        </xs:simpleType>
+                                                                                        <xs:simpleType>
+                                                                                            <xs:restriction
+                                                                                                    base="xs:string">
+                                                                                                <xs:enumeration
+                                                                                                        value=""/>
+                                                                                            </xs:restriction>
+                                                                                        </xs:simpleType>
+                                                                                    </xs:union>
+                                                                                </xs:simpleType>
+                                                                            </xs:element>
+                                                                            <xs:element type="xs:string" name="phone"
+                                                                                        minOccurs="0"/>
+                                                                            <xs:element type="xs:string" name="religion"
+                                                                                        minOccurs="0"/>
+                                                                            <xs:element name="relationship"
+                                                                                        minOccurs="0">
+                                                                                <xs:simpleType>
+                                                                                    <xs:restriction base="xs:string"/>
+                                                                                </xs:simpleType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                        <xs:attribute type="xs:string" name="type"
+                                                                                      use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="financial_information">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="account_name"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="account_number"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="sort_code"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="amount"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="discount"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:float" name="dd_amount"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:float" name="dd_monthly_payment"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="dd_start_month"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="sp_overpayment"
+                                                                            minOccurs="0"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="plan_details">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="promotion"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="rbl_donation"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:int" name="plan_number"/>
+                                                                <xs:element type="xs:date" name="date_signed"/>
+                                                                <xs:element type="xs:date" name="application_date"/>
+                                                                <xs:element type="xs:date" name="start_date"/>
+                                                                <xs:element type="xs:string"
+                                                                            name="five_year_guarantee"/>
+                                                                <xs:element type="xs:string" name="service"/>
+                                                                <xs:element type="xs:integer" name="car_number"/>
+                                                                <xs:element name="church" minOccurs="0">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension base="xs:string">
+                                                                                <xs:attribute type="xs:string"
+                                                                                              name="name"
+                                                                                              use="required"/>
+                                                                                <xs:attribute type="xs:string"
+                                                                                              name="clergy"
+                                                                                              use="required"/>
+                                                                                <xs:attribute type="xs:string"
+                                                                                              name="telephone"
+                                                                                              use="required"/>
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:choice minOccurs="0" maxOccurs="1">
+                                                                    <xs:element name="Cremation" minOccurs="0"
+                                                                                maxOccurs="1">
+                                                                        <xs:complexType>
+                                                                            <xs:simpleContent>
+                                                                                <xs:extension base="xs:string">
+                                                                                    <xs:attribute type="xs:string"
+                                                                                                  name="crematorium"
+                                                                                                  use="required"/>
+                                                                                    <xs:attribute type="xs:string"
+                                                                                                  name="urn_type"
+                                                                                                  use="required"/>
+                                                                                    <xs:attribute type="xs:string"
+                                                                                                  name="disposal"
+                                                                                                  use="required"/>
+                                                                                </xs:extension>
+                                                                            </xs:simpleContent>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                    <xs:element name="Burial" minOccurs="0">
+                                                                        <xs:complexType>
+                                                                            <xs:simpleContent>
+                                                                                <xs:extension base="xs:string">
+                                                                                    <xs:attribute type="xs:string"
+                                                                                                  name="cemetery"
+                                                                                                  use="required"/>
+                                                                                    <xs:attribute type="xs:string"
+                                                                                                  name="coffin_type"
+                                                                                                  use="required"/>
+                                                                                    <xs:attribute type="xs:string"
+                                                                                                  name="grave_owned"
+                                                                                                  use="required"/>
+                                                                                    <xs:attribute type="xs:string"
+                                                                                                  name="grave_class"
+                                                                                                  use="required"/>
+                                                                                    <xs:attribute type="xs:string"
+                                                                                                  name="grave_section"
+                                                                                                  use="required"/>
+                                                                                    <xs:attribute type="xs:string"
+                                                                                                  name="lair_number"
+                                                                                                  use="optional"/>
+                                                                                    <xs:attribute type="xs:string"
+                                                                                                  name="certificate_number"
+                                                                                                  use="optional"/>
+                                                                                </xs:extension>
+                                                                            </xs:simpleContent>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:choice>
+                                                                <xs:element type="xs:string" name="memorial_type"
+                                                                            minOccurs="0"/>
+                                                                <xs:element type="xs:string"
+                                                                            name="additional_information" minOccurs="0"
+                                                                            maxOccurs="1"/>
+                                                                <xs:element type="xs:string"
+                                                                            name="third_party_allowance" minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="payment_method"/>
+                                                                <xs:element type="xs:string" name="disclaimer"/>
+                                                                <xs:element type="xs:string" name="tc"/>
+                                                                <xs:element type="xs:string" name="freeform_text"
+                                                                            minOccurs="0" maxOccurs="1"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

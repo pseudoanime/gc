@@ -37,10 +37,30 @@
                                                                             <xs:element type="xs:string" name="last_name"/>
                                                                             <xs:element type="xs:string" name="address"/>
                                                                             <xs:element type="xs:string" name="email" minOccurs="0"/>
-                                                                            <xs:element type="xs:date" name="dob" minOccurs="0"/>
+
+  <xs:element name="dob" minOccurs="0">                                                                          <xs:simpleType>
+                                                                                <xs:union>
+                                                                                    <xs:simpleType>
+                                                                                        <xs:restriction base="xs:date"/>
+                                                                                    </xs:simpleType>
+                                                                                    <xs:simpleType>
+                                                                                        <xs:restriction base="xs:string">
+                                                                                            <xs:enumeration value=""/>
+                                                                                        </xs:restriction>
+                                                                                    </xs:simpleType>
+                                                                                </xs:union>
+                                                                            </xs:simpleType>
+                                                                            </xs:element>
                                                                             <xs:element type="xs:string" name="phone" minOccurs="0"/>
                                                                             <xs:element type="xs:string" name="religion" minOccurs="0"/>
-                                                                            <xs:element type="xs:string" name="relationship" minOccurs="0"/>
+                                                                            <xs:element name="relationship" minOccurs="0">
+
+
+                                                                                        <xs:simpleType>
+                                                                                            <xs:restriction base="xs:string"/>
+                                                                                        </xs:simpleType>
+
+                                                                                                                                                  </xs:element>
                                                                         </xs:sequence>
                                                                         <xs:attribute type="xs:string" name="type" use="required"/>
                                                                     </xs:complexType>

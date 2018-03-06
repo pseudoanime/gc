@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <supply_date>2017-11-01</supply_date>
+    <records>
+        <record>
+            <personalisation_flags>
+                <trigger>100</trigger>
+                <brander_code>LGC</brander_code>
+                <plan_category>ABC</plan_category>
+                <plan_type>Value</plan_type>
+                <plan_version></plan_version>
+                <payment_type>Single payment</payment_type>
+                <payment_party>Plan Holder</payment_party>
+                <payment_status></payment_status>
+            </personalisation_flags>
+            <letter_information>
+                <address_information>
+                    <Person type="member">
+                        <title>Mr</title>
+                        <first_name>Joe</first_name>
+                        <last_name>Bloggs</last_name>
+                        <address>123 Example Street, AB1 1ZZ</address>
+                        <email>abc@gmail.com</email>
+                        <dob>1900-01-01</dob>
+                        <phone>12345678</phone>
+                        <religion>Religion name</religion>
+                        <relationship/>
+                    </Person>
+                    <Person type="funeral_director">
+                        <title>Mr</title>
+                        <first_name>Joe</first_name>
+                        <last_name>Bloggs</last_name>
+                        <address>123 Example Street</address>
+                        <email>abc@gmail.com</email>
+                        <dob/>
+                        <phone>123-123-123</phone>
+                        <religion/>
+                        <relationship/>
+                    </Person>
+                    <Person type="representative">
+                        <title>Mr</title>
+                        <first_name>John</first_name>
+                        <last_name>Doe</last_name>
+                        <address>123 Example Street</address>
+                        <email>abc@gmail.com</email>
+                        <dob/>
+                        <phone>123-123-123</phone>
+                        <religion/>
+                        <relationship>Parent</relationship>
+                    </Person>
+                    <Person type="next_of_kin">
+                        <title>Mr</title>
+                        <first_name>John</first_name>
+                        <last_name>Doe</last_name>
+                        <address>123 Example Street</address>
+                        <email>abc@gmail.com</email>
+                        <dob/>
+                        <phone>123-123-123</phone>
+                        <religion/>
+                        <relationship>Father</relationship>
+                    </Person>
+                    <Person type="grave_owner">
+                        <title>Mr</title>
+                        <first_name>Joe</first_name>
+                        <last_name>Bloggs</last_name>
+                        <address>123 Example Street</address>
+                        <email>abc@gmail.com</email>
+                        <dob/>
+                        <phone>123-123-123</phone>
+                        <religion/>
+                        <relationship/>
+                    </Person>
+                    <Person type="seller">
+                        <title>Mr</title>
+                        <first_name>Seller</first_name>
+                        <last_name>Seller</last_name>
+                        <address>Seller address</address>
+                        <email/>
+                        <dob/>
+                        <phone/>
+                        <religion/>
+                        <relationship/>
+                    </Person>
+                </address_information>
+                <financial_information>
+                    <account_name>abc</account_name>
+                    <account_number>12345</account_number>
+                    <sort_code>112233</sort_code>
+                    <amount>100</amount>
+                    <discount>10</discount>
+                    <dd_amount>30000</dd_amount>
+                    <dd_monthly_payment>300.09</dd_monthly_payment>
+                    <dd_start_month>October 2017</dd_start_month>
+                    <sp_overpayment>VALUE</sp_overpayment>
+                </financial_information>
+                <plan_details>
+                    <promotion>Y</promotion>
+                    <rbl_donation>Y</rbl_donation>
+                    <plan_number>20052035</plan_number>
+                    <date_signed>2017-11-01</date_signed>
+                    <application_date>2017-11-01</application_date>
+                    <start_date>2017-11-01</start_date>
+                    <five_year_guarantee>TO BE CONFIRMED</five_year_guarantee>
+                    <service>Service Information</service>
+                    <car_number>1</car_number>
+                    <church name="name of church" clergy="clergy name" telephone="123456789"/>
+                    <Cremation crematorium="Crematorium Name" urn_type="Urn Type" disposal="Disposal Type"/>
+                    <Burial cemetery="Cemetery name" coffin_type="Coffin Type" grave_owned="Y" grave_class="Grave class"
+                            grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
+                    <memorial_type>abc</memorial_type>
+                    <additional_information>Additional information on the plan</additional_information>
+                    <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
+                    <payment_method>information</payment_method>
+                    <disclaimer>Disclaimer</disclaimer>
+                    <tc>TC_SYG_INSERT</tc>
+                    <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
+                        Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
+                        Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
+                        bibendum pellentesque. Nunc blandit condimentum lorem, ut tempus metus tincidunt et. Nullam vel
+                        neque venenatis, malesuada orci tempus, pulvinar odio. Sed et ex cursus velit hendrerit eleifend
+                        a a felis. Aenean dolor urna, fringilla a massa vel, consequat ullamcorper sem. Duis nisi lorem,
+                        placerat vitae nunc quis, congue laoreet magna. Duis ac luctus lorem. Sed eget ex vitae dolor
+                        pellentesque tincidunt eu vel augue. Nullam sed porttitor mauris. Nullam tristique metus id
+                        velit vestibulum, tempor aliquam massa tempor.&#xA;In tincidunt sem ullamcorper erat elementum,
+                        ac pretium urna sodales. Suspendisse a congue nunc.&#xA;Aliquam erat volutpat. Donec dignissim
+                        justo porta sapien faucibus tincidunt. Pellentesque placerat finibus porta. Quisque imperdiet
+                        nibh in felis laoreet, ornare egestas orci faucibus. In sed justo ligula. Donec eget magna ut
+                        turpis bibendum feugiat non non diam. Pellentesque vel nulla nibh. Nam placerat sit amet lorem
+                        at faucibus. Curabitur sed purus dolor. Donec euismo odio nec cursus tristique. Praesent
+                        efficitur congue pulvinar.&#xA;Sed gravida lorem orci, idporta mauris luctus et. Phasellus
+                        blandit, ante a sollicitudinfaucibus, risus justo interdumdui, at fermentum mi risus et dolor.
+                        Etiam interdum tempormattis. Interdum et malesuada fames acante ipsum primis in faucibus. Sed
+                        ultrices, libero quisfacilisis eleifend, ligula arcu pretiumneque, ac dapibus eros mauris a
+                        urna. Vivamus dignissimeuismod eros, in ultrices leo dignissimac. Nunc semper, nulla id sodales
+                        molestie, sapien risusfacilisis sapien, gravida pharetra erosfelis vel arcu. Sed ultricies
+                        maximus eleifend.
+                    </freeform_text>
+                </plan_details>
+            </letter_information>
+        </record>
+    </records>
+</data>
