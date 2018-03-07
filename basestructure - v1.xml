@@ -81,6 +81,14 @@
                     <application_date>2017-11-01</application_date>
                     <start_date>2017-11-01</start_date>
                     <five_year_guarantee>TO BE CONFIRMED</five_year_guarantee>
+                    <sum_assured>2000</sum_assured>
+                    <sum_assured_plus>3000</sum_assured_plus>
+                    <funeral_benefit_value>250</funeral_benefit_value>
+                    <funeral_benefit_value2>50</funeral_benefit_value2>
+                    <policy_number>12345</policy_number>
+                    <plan_value_statement>plan value statement</plan_value_statement>
+                    <sfs_partner>Name of Partner</sfs_partner>
+                    <gc_contribution>100</gc_contribution>
                     <service>Service Information</service>
                     <car_number>1</car_number>
                     <church name="name of church" clergy="clergy name" telephone="123456789"/>

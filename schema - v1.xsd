@@ -93,6 +93,14 @@
                                                                 <xs:element type="xs:date" name="application_date"/>
                                                                 <xs:element type="xs:date" name="start_date"/>
                                                                 <xs:element type="xs:string" name="five_year_guarantee"/>
+                                                                <xs:element type="xs:float" name="sum_assured" minOccurs="0"/>
+                                                                <xs:element type="xs:float" name="sum_assured_plus" minOccurs="0"/>
+                                                                <xs:element type="xs:float" name="funeral_benefit_value" minOccurs="0"/>
+                                                                <xs:element type="xs:float" name="funeral_benefit_value2" minOccurs="0"/>
+                                                                <xs:element type="xs:int" name="policy_number" minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="plan_value_statement" minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="sfs_partner" minOccurs="0"/>
+                                                                <xs:element type="xs:float" name="gc_contribution" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="service"/>
                                                                 <xs:element type="xs:integer" name="car_number"/>
                                                                 <xs:element name="church" minOccurs="0">
