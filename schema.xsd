@@ -23,7 +23,7 @@
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="letter_information">
+                                        <xs:element name="membership_pack">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="address_information">
@@ -37,30 +37,27 @@
                                                                             <xs:element type="xs:string" name="last_name"/>
                                                                             <xs:element type="xs:string" name="address"/>
                                                                             <xs:element type="xs:string" name="email" minOccurs="0"/>
-
-  <xs:element name="dob" minOccurs="0">                                                                          <xs:simpleType>
-                                                                                <xs:union>
-                                                                                    <xs:simpleType>
-                                                                                        <xs:restriction base="xs:date"/>
-                                                                                    </xs:simpleType>
-                                                                                    <xs:simpleType>
-                                                                                        <xs:restriction base="xs:string">
-                                                                                            <xs:enumeration value=""/>
-                                                                                        </xs:restriction>
-                                                                                    </xs:simpleType>
-                                                                                </xs:union>
-                                                                            </xs:simpleType>
+                                                                            <xs:element name="dob" minOccurs="0">
+                                                                                <xs:simpleType>
+                                                                                    <xs:union>
+                                                                                        <xs:simpleType>
+                                                                                            <xs:restriction base="xs:date"/>
+                                                                                        </xs:simpleType>
+                                                                                        <xs:simpleType>
+                                                                                            <xs:restriction base="xs:string">
+                                                                                                <xs:enumeration value=""/>
+                                                                                            </xs:restriction>
+                                                                                        </xs:simpleType>
+                                                                                    </xs:union>
+                                                                                </xs:simpleType>
                                                                             </xs:element>
                                                                             <xs:element type="xs:string" name="phone" minOccurs="0"/>
                                                                             <xs:element type="xs:string" name="religion" minOccurs="0"/>
                                                                             <xs:element name="relationship" minOccurs="0">
-
-
-                                                                                        <xs:simpleType>
-                                                                                            <xs:restriction base="xs:string"/>
-                                                                                        </xs:simpleType>
-
-                                                                                                                                                  </xs:element>
+                                                                                <xs:simpleType>
+                                                                                    <xs:restriction base="xs:string"/>
+                                                                                </xs:simpleType>
+                                                                            </xs:element>
                                                                         </xs:sequence>
                                                                         <xs:attribute type="xs:string" name="type" use="required"/>
                                                                     </xs:complexType>
@@ -131,7 +128,6 @@
                                                                             <xs:simpleContent>
                                                                                 <xs:extension base="xs:string">
                                                                                     <xs:attribute type="xs:string" name="cemetery" use="required"/>
-                                                                                    <xs:attribute type="xs:string" name="coffin_type" use="required"/>
                                                                                     <xs:attribute type="xs:string" name="grave_owned" use="required"/>
                                                                                     <xs:attribute type="xs:string" name="grave_class" use="required"/>
                                                                                     <xs:attribute type="xs:string" name="grave_section" use="required"/>
@@ -142,13 +138,45 @@
                                                                         </xs:complexType>
                                                                     </xs:element>
                                                                 </xs:choice>
+                                                                <xs:element type="xs:string" name="coffin" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="memorial_type" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="additional_information" minOccurs="0" maxOccurs="1"/>
                                                                 <xs:element type="xs:string" name="third_party_allowance" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="payment_method"/>
-                                                                <xs:element type="xs:string" name="disclaimer"/>
                                                                 <xs:element type="xs:string" name="tc"/>
                                                                 <xs:element type="xs:string" name="freeform_text" minOccurs="0" maxOccurs="1"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="fd_services" minOccurs="1" maxOccurs="1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="fd_row" minOccurs="1" maxOccurs="28">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension base="xs:string">
+                                                                                <xs:attribute type="xs:string" name="name" use="required"/>
+                                                                                <xs:attribute type="xs:float" name="value" use="required"/>
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="disbursements" minOccurs="1" maxOccurs="1">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="disbursement_row" minOccurs="1" maxOccurs="28">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension base="xs:string">
+                                                                                <xs:attribute type="xs:string" name="name" use="required"/>
+                                                                                <xs:attribute type="xs:float" name="value" use="required"/>
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>

@@ -13,7 +13,7 @@
                 <payment_party>Plan Holder</payment_party>
                 <payment_status></payment_status>
             </personalisation_flags>
-            <letter_information>
+            <membership_pack>
                 <address_information>
                     <Person type="member">
                         <title>Mr</title>
@@ -92,12 +92,12 @@
                     <service>Service Information</service>
                     <car_number>1</car_number>
                     <church name="name of church" clergy="clergy name" telephone="123456789"/>
-                    <Burial cemetery="Cemetery name" coffin_type="Coffin Type" grave_owned="Y" grave_class="Grave class"
+                    <Burial cemetery="Cemetery name" grave_owned="Y" grave_class="Grave class"
                             grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
+                    <coffin>coffin type</coffin>
                     <additional_information>Additional information on the plan</additional_information>
                     <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
-                    <payment_method>information</payment_method>
-                    <disclaimer>Disclaimer</disclaimer>
+                    <payment_method>Single Payment</payment_method>
                     <tc>TC_SYG_INSERT</tc>
                     <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
                         Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
@@ -122,7 +122,40 @@
                         maximus eleifend.
                     </freeform_text>
                 </plan_details>
-            </letter_information>
+                <fd_services>
+                    <fd_row name="4 x Bearers" value="216.00"/>
+                    <fd_row name="Additional time for church service" value="80.00"/>
+                    <fd_row name="Coffin" value="840.00"/>
+                    <fd_row name="Funeral Director" value="95.00"/>
+                    <fd_row name="Hearse" value="215.00"/>
+                    <fd_row name="Oak Casket" value="99.00"/>
+                    <fd_row name="Professional Services" value="945.00"/>
+                    <fd_row name="Removal of deceased" value="245.00"/>
+                    <fd_row name="Two limousines" value="430.00"/>
+                </fd_services>
+                <disbursements>
+                    <disbursement_row name="100 Service sheets" value="255.00"/>
+                    <disbursement_row name="All licenses (exclusive right &amp; interment fee - paid direct for erection of stone memorial)" value="49.00"/>
+                    <disbursement_row name="Choir" value="100"/>
+                    <disbursement_row name="Clergy fee" value="216.00"/>
+                    <disbursement_row name="Crematorium fee" value="686.00"/>
+                    <disbursement_row name="Doctor&apos;s fee(cremation certificate)" value="164.00"/>
+                    <disbursement_row name="Donations postage" value="6.45"/>
+                    <disbursement_row name="Fees for place of worship (organist)" value="75.00"/>
+                    <disbursement_row name="Fees for place of worship (verger/church officer)" value="35.00"/>
+                    <disbursement_row name="Floral tribute" value="100.00"/>
+                    <disbursement_row name="Horse drawn hearse" value="1500.00"/>
+                    <disbursement_row name="Hygienic treatment services" value="145.00"/>
+                    <disbursement_row name="Minister&apos;s fees" value="161.00"/>
+                    <disbursement_row name="Newspaper notices" value="200.00"/>
+                    <disbursement_row name="Polished granite with inscription, supply &amp; fitting" value="481.00"/>
+                    <disbursement_row name="Preparation of Grave" value="64.00"/>
+                    <disbursement_row name="Professional Fee" value="100.00"/>
+                    <disbursement_row name="Soprano Soloist" value="100.00"/>
+                    <disbursement_row name="Temp. Grave Marker" value="100.00"/>
+                    <disbursement_row name="Tenor Soloist" value="199.00"/>
+                </disbursements>
+            </membership_pack>
         </record>
         <record>
             <personalisation_flags>
@@ -135,7 +168,7 @@
                 <payment_party>Plan Holder</payment_party>
                 <payment_status></payment_status>
             </personalisation_flags>
-            <letter_information>
+            <membership_pack>
                 <address_information>
                     <Person type="member">
                         <title>Mr</title>
@@ -180,11 +213,18 @@
                     <Cremation crematorium="Crematorium Name" urn_type="Urn Type" disposal="Disposal Type"/>
                     <memorial_type>abc</memorial_type>
                     <additional_information>Additional information on the plan</additional_information>
-                    <payment_method>information</payment_method>
-                    <disclaimer>Disclaimer</disclaimer>
+                    <payment_method>Single Payment</payment_method>
                     <tc>TC_SYG_INSERT</tc>
                 </plan_details>
-            </letter_information>
+                <fd_services>
+                    <fd_row name="4 x Bearers" value="216.00"/>
+                </fd_services>
+                <disbursements>
+                    <disbursement_row name="100 Service sheets" value="255.00"/>
+                    <disbursement_row name="All licenses (exclusive right &amp; interment fee - paid direct for erection of stone memorial)" value="49.00"/>
+                    <disbursement_row name="Choir" value="100"/>
+                </disbursements>
+            </membership_pack>
         </record>
     </records>
 </data>
