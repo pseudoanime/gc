@@ -59,7 +59,18 @@
                                                                                 </xs:simpleType>
                                                                             </xs:element>
                                                                         </xs:sequence>
-                                                                        <xs:attribute type="xs:string" name="type" use="required"/>
+                                                                        <xs:attribute name="type" use="required">
+                                                                            <xs:simpleType>
+                                                                                <xs:restriction base="xs:string">
+                                                                                    <xs:enumeration value="member"/>
+                                                                                    <xs:enumeration value="funeral_director"/>
+                                                                                    <xs:enumeration value="representative"/>
+                                                                                    <xs:enumeration value="next_of_kin"/>
+                                                                                    <xs:enumeration value="grave_owner"/>
+                                                                                    <xs:enumeration value="seller"/>
+                                                                                </xs:restriction>
+                                                                            </xs:simpleType>
+                                                                        </xs:attribute>
                                                                     </xs:complexType>
                                                                 </xs:element>
                                                             </xs:sequence>
