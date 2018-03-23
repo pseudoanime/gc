@@ -80,7 +80,7 @@
                     <date_signed>2017-11-01</date_signed>
                     <application_date>2017-11-01</application_date>
                     <start_date>2017-11-01</start_date>
-                    <five_year_guarantee>TO BE CONFIRMED</five_year_guarantee>
+                    <five_year_guarantee date="2018-01-01" />
                     <sum_assured>2000</sum_assured>
                     <sum_assured_plus>3000</sum_assured_plus>
                     <funeral_benefit_value>250</funeral_benefit_value>
@@ -96,7 +96,6 @@
                             grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
                     <coffin>coffin type</coffin>
                     <additional_information>Additional information on the plan</additional_information>
-                    <third_party_allowance>TO BE CONFIRMED</third_party_allowance>
                     <payment_method>Single Payment</payment_method>
                     <tc>TC_SYG_INSERT</tc>
                     <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
@@ -207,7 +206,6 @@
                     <date_signed>2017-11-01</date_signed>
                     <application_date>2017-11-01</application_date>
                     <start_date>2017-11-01</start_date>
-                    <five_year_guarantee>TO BE CONFIRMED</five_year_guarantee>
                     <service>Service Information</service>
                     <car_number>2</car_number>
                     <Cremation crematorium="Crematorium Name" urn_type="Urn Type" disposal="Disposal Type"/>
@@ -216,14 +214,6 @@
                     <payment_method>Single Payment</payment_method>
                     <tc>TC_SYG_INSERT</tc>
                 </plan_details>
-                <fd_services>
-                    <fd_row name="4 x Bearers" value="216.00"/>
-                </fd_services>
-                <disbursements>
-                    <disbursement_row name="100 Service sheets" value="255.00"/>
-                    <disbursement_row name="All licenses (exclusive right &amp; interment fee - paid direct for erection of stone memorial)" value="49.00"/>
-                    <disbursement_row name="Choir" value="100"/>
-                </disbursements>
             </membership_pack>
         </record>
     </records>

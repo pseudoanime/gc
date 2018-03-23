@@ -100,7 +100,15 @@
                                                                 <xs:element type="xs:date" name="date_signed"/>
                                                                 <xs:element type="xs:date" name="application_date"/>
                                                                 <xs:element type="xs:date" name="start_date"/>
-                                                                <xs:element type="xs:string" name="five_year_guarantee"/>
+                                                                <xs:element name="five_year_guarantee" minOccurs="0">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension base="xs:string">
+                                                                                <xs:attribute type="xs:date" name="date" use="required"/>
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
                                                                 <xs:element type="xs:float" name="sum_assured" minOccurs="0"/>
                                                                 <xs:element type="xs:float" name="sum_assured_plus" minOccurs="0"/>
                                                                 <xs:element type="xs:float" name="funeral_benefit_value" minOccurs="0"/>
@@ -152,14 +160,13 @@
                                                                 <xs:element type="xs:string" name="coffin" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="memorial_type" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="additional_information" minOccurs="0" maxOccurs="1"/>
-                                                                <xs:element type="xs:string" name="third_party_allowance" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="payment_method"/>
                                                                 <xs:element type="xs:string" name="tc"/>
                                                                 <xs:element type="xs:string" name="freeform_text" minOccurs="0" maxOccurs="1"/>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name="fd_services" minOccurs="1" maxOccurs="1">
+                                                    <xs:element name="fd_services" minOccurs="0" maxOccurs="1">
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element name="fd_row" minOccurs="1" maxOccurs="28">
@@ -175,7 +182,7 @@
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name="disbursements" minOccurs="1" maxOccurs="1">
+                                                    <xs:element name="disbursements" minOccurs="0" maxOccurs="1">
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element name="disbursement_row" minOccurs="1" maxOccurs="28">
