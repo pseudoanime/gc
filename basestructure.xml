@@ -71,11 +71,11 @@
                     <dd_amount>30000</dd_amount>
                     <dd_monthly_payment>300.09</dd_monthly_payment>
                     <dd_start_month>October 2017</dd_start_month>
-                    <sp_overpayment>VALUE</sp_overpayment>
+                    <sp_overpayment>100.1</sp_overpayment>
                 </financial_information>
                 <plan_details>
-                    <promotion>Y</promotion>
-                    <rbl_donation>Y</rbl_donation>
+                    <promotion date="2018-01-01" />
+                    <rbl_donation>12.00</rbl_donation>
                     <plan_number>20052035</plan_number>
                     <date_signed>2017-11-01</date_signed>
                     <application_date>2017-11-01</application_date>
@@ -95,9 +95,17 @@
                     <Burial cemetery="Cemetery name" grave_owned="Y" grave_class="Grave class"
                             grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
                     <coffin>coffin type</coffin>
-                    <additional_information>Additional information on the plan</additional_information>
+                    <additional_information>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
+                        Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
+                        Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
+                        bibendum pellentesque. Nunc blandit condimentum lorem, ut tempus metus tincidunt et. Nullam vel
+                        neque venenatis, malesuada orci tempus, pulvinar odio. Sed et ex cursus velit hendrerit eleifend
+                        a a felis. Aenean dolor urna, fringilla a massa vel, consequat ullamcorper sem. Duis nisi lorem,
+                        placerat vitae nunc quis, congue laoreet magna. Duis ac luctus lorem. Sed eget ex vitae dolor
+                        pellentesque tincidunt eu vel augue. Nullam sed porttitor mauris. Nullam tristique metus id
+                        velit vestibulum, tempor aliquam massa tempor.&#xA;In tincidunt sem ullamcorper erat elementum,
+                        ac pretium urna sodales. Suspendisse a congue nunc.&#xA;</additional_information>
                     <payment_method>Single Payment</payment_method>
-                    <tc>TC_SYG_INSERT</tc>
                     <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
                         Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
                         Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
@@ -201,7 +209,6 @@
                     <dd_start_month>October 2017</dd_start_month>
                 </financial_information>
                 <plan_details>
-                    <rbl_donation>Y</rbl_donation>
                     <plan_number>20052035</plan_number>
                     <date_signed>2017-11-01</date_signed>
                     <application_date>2017-11-01</application_date>
@@ -212,7 +219,6 @@
                     <memorial_type>abc</memorial_type>
                     <additional_information>Additional information on the plan</additional_information>
                     <payment_method>Single Payment</payment_method>
-                    <tc>TC_SYG_INSERT</tc>
                 </plan_details>
             </membership_pack>
         </record>

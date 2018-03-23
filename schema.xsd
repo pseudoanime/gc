@@ -87,27 +87,27 @@
                                                                 <xs:element type="xs:float" name="dd_amount" minOccurs="0"/>
                                                                 <xs:element type="xs:float" name="dd_monthly_payment" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="dd_start_month" minOccurs="0"/>
-                                                                <xs:element type="xs:string" name="sp_overpayment" minOccurs="0"/>
+                                                                <xs:element type="xs:float" name="sp_overpayment" minOccurs="0"/>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
                                                     <xs:element name="plan_details">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element type="xs:string" name="promotion" minOccurs="0"/>
-                                                                <xs:element type="xs:string" name="rbl_donation" minOccurs="0"/>
+                                                                <xs:element name="promotion" minOccurs="0">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute type="xs:date" name="date" use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element type="xs:float" name="rbl_donation" minOccurs="0"/>
                                                                 <xs:element type="xs:int" name="plan_number"/>
                                                                 <xs:element type="xs:date" name="date_signed"/>
                                                                 <xs:element type="xs:date" name="application_date"/>
                                                                 <xs:element type="xs:date" name="start_date"/>
                                                                 <xs:element name="five_year_guarantee" minOccurs="0">
                                                                     <xs:complexType>
-                                                                        <xs:simpleContent>
-                                                                            <xs:extension base="xs:string">
-                                                                                <xs:attribute type="xs:date" name="start_date" use="required"/>
-                                                                                <xs:attribute type="xs:date" name="end_date" use="required"/>
-                                                                            </xs:extension>
-                                                                        </xs:simpleContent>
+                                                                        <xs:attribute type="xs:date" name="start_date" use="required"/>
+                                                                        <xs:attribute type="xs:date" name="end_date" use="required"/>
                                                                     </xs:complexType>
                                                                 </xs:element>
                                                                 <xs:element type="xs:float" name="sum_assured" minOccurs="0"/>
@@ -162,7 +162,6 @@
                                                                 <xs:element type="xs:string" name="memorial_type" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="additional_information" minOccurs="0" maxOccurs="1"/>
                                                                 <xs:element type="xs:string" name="payment_method"/>
-                                                                <xs:element type="xs:string" name="tc"/>
                                                                 <xs:element type="xs:string" name="freeform_text" minOccurs="0" maxOccurs="1"/>
                                                             </xs:sequence>
                                                         </xs:complexType>
