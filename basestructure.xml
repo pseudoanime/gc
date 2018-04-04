@@ -6,7 +6,6 @@
             <personalisation_flags>
                 <trigger>100</trigger>
                 <brander_code>LGC</brander_code>
-                <plan_category>ABC</plan_category>
                 <plan_type>Value</plan_type>
                 <plan_version></plan_version>
                 <payment_type>Single payment</payment_type>
@@ -74,6 +73,7 @@
                     <sp_overpayment>100.1</sp_overpayment>
                 </financial_information>
                 <plan_details>
+                    <plan_category>ABC</plan_category>
                     <promotion date="2018-01-01" />
                     <rbl_donation>12.00</rbl_donation>
                     <plan_number>20052035</plan_number>
@@ -95,6 +95,7 @@
                     <Burial cemetery="Cemetery name" grave_owned="Y" grave_class="Grave class"
                             grave_section="Grave section" lair_number="1234" certificate_number="1234"/>
                     <coffin>coffin type</coffin>
+                    <tc>TC1234</tc>
                     <additional_information>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
                         Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
                         Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
@@ -146,7 +147,7 @@
                     <disbursement_row name="Choir" value="100"/>
                     <disbursement_row name="Clergy fee" value="216.00"/>
                     <disbursement_row name="Crematorium fee" value="686.00"/>
-                    <disbursement_row name="Doctor&apos;s fee(cremation certificate)" value="164.00"/>
+                    <disbursement_row name="Doctor's fee(cremation certificate)" value="164.00"/>
                     <disbursement_row name="Donations postage" value="6.45"/>
                     <disbursement_row name="Fees for place of worship (organist)" value="75.00"/>
                     <disbursement_row name="Fees for place of worship (verger/church officer)" value="35.00"/>
@@ -168,7 +169,6 @@
             <personalisation_flags>
                 <trigger>100</trigger>
                 <brander_code>LGC</brander_code>
-                <plan_category>ABC</plan_category>
                 <plan_type>Value</plan_type>
                 <plan_version></plan_version>
                 <payment_type>Single payment</payment_type>
@@ -209,6 +209,7 @@
                     <dd_start_month>October 2017</dd_start_month>
                 </financial_information>
                 <plan_details>
+                    <plan_category>ABC</plan_category>
                     <plan_number>20052035</plan_number>
                     <date_signed>2017-11-01</date_signed>
                     <application_date>2017-11-01</application_date>

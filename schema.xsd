@@ -14,7 +14,6 @@
                                                 <xs:sequence>
                                                     <xs:element type="xs:integer" name="trigger"/>
                                                     <xs:element type="xs:string" name="brander_code"/>
-                                                    <xs:element type="xs:string" name="plan_category"/>
                                                     <xs:element type="xs:string" name="plan_type"/>
                                                     <xs:element type="xs:string" name="plan_version"/>
                                                     <xs:element type="xs:string" name="payment_type"/>
@@ -94,6 +93,7 @@
                                                     <xs:element name="plan_details">
                                                         <xs:complexType>
                                                             <xs:sequence>
+                                                                <xs:element type="xs:string" name="plan_category" minOccurs="0"/>
                                                                 <xs:element name="promotion" minOccurs="0">
                                                                     <xs:complexType>
                                                                         <xs:attribute type="xs:date" name="date" use="required"/>
@@ -159,6 +159,7 @@
                                                                     </xs:element>
                                                                 </xs:choice>
                                                                 <xs:element type="xs:string" name="coffin" minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="tc" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="memorial_type" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="additional_information" minOccurs="0" maxOccurs="1"/>
                                                                 <xs:element type="xs:string" name="payment_method"/>
