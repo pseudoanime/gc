@@ -28,7 +28,7 @@
                                                     <xs:element name="address_information">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="Person" maxOccurs="unbounded" minOccurs="1">
+                                                                <xs:element name="member">
                                                                     <xs:complexType>
                                                                         <xs:sequence>
                                                                             <xs:element type="xs:string" name="title"/>
@@ -36,7 +36,7 @@
                                                                             <xs:element type="xs:string" name="last_name"/>
                                                                             <xs:element type="xs:string" name="address"/>
                                                                             <xs:element type="xs:string" name="email" minOccurs="0"/>
-                                                                            <xs:element name="dob" minOccurs="0">
+                                                                            <xs:element name="dob">
                                                                                 <xs:simpleType>
                                                                                     <xs:union>
                                                                                         <xs:simpleType>
@@ -52,24 +52,65 @@
                                                                             </xs:element>
                                                                             <xs:element type="xs:string" name="phone" minOccurs="0"/>
                                                                             <xs:element type="xs:string" name="religion" minOccurs="0"/>
-                                                                            <xs:element name="relationship" minOccurs="0">
-                                                                                <xs:simpleType>
-                                                                                    <xs:restriction base="xs:string"/>
-                                                                                </xs:simpleType>
-                                                                            </xs:element>
                                                                         </xs:sequence>
-                                                                        <xs:attribute name="type" use="required">
-                                                                            <xs:simpleType>
-                                                                                <xs:restriction base="xs:string">
-                                                                                    <xs:enumeration value="member"/>
-                                                                                    <xs:enumeration value="funeral_director"/>
-                                                                                    <xs:enumeration value="representative"/>
-                                                                                    <xs:enumeration value="next_of_kin"/>
-                                                                                    <xs:enumeration value="grave_owner"/>
-                                                                                    <xs:enumeration value="seller"/>
-                                                                                </xs:restriction>
-                                                                            </xs:simpleType>
-                                                                        </xs:attribute>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="funeral_director">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="name"/>
+                                                                            <xs:element type="xs:string" name="old_name" minOccurs="0"/>
+                                                                            <xs:element type="xs:string" name="address"/>
+                                                                            <xs:element type="xs:string" name="old_address" minOccurs="0"/>
+                                                                            <xs:element type="xs:string" name="email" minOccurs="0"/>
+                                                                            <xs:element type="xs:string" name="phone" minOccurs="0"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="representative" minOccurs="0">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="title"/>
+                                                                            <xs:element type="xs:string" name="first_name"/>
+                                                                            <xs:element type="xs:string" name="last_name"/>
+                                                                            <xs:element type="xs:string" name="address"/>
+                                                                            <xs:element type="xs:string" name="email" minOccurs="0"/>
+                                                                            <xs:element type="xs:string" name="phone" minOccurs="0"/>
+                                                                            <xs:element type="xs:string" name="relationship"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="next_of_kin" minOccurs="0">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="title"/>
+                                                                            <xs:element type="xs:string" name="first_name"/>
+                                                                            <xs:element type="xs:string" name="last_name"/>
+                                                                            <xs:element type="xs:string" name="address"/>
+                                                                            <xs:element type="xs:string" name="email" minOccurs="0"/>
+                                                                            <xs:element type="xs:string" name="phone" minOccurs="0"/>
+                                                                            <xs:element type="xs:string" name="relationship"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="grave_owner" minOccurs="0">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="title"/>
+                                                                            <xs:element type="xs:string" name="first_name"/>
+                                                                            <xs:element type="xs:string" name="last_name"/>
+                                                                            <xs:element type="xs:string" name="address"/>
+                                                                            <xs:element type="xs:string" name="email" minOccurs="0"/>
+                                                                            <xs:element type="xs:string" name="phone" minOccurs="0"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="seller" minOccurs="0">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:string" name="name"/>
+                                                                            <xs:element type="xs:string" name="address"/>
+                                                                        </xs:sequence>
                                                                     </xs:complexType>
                                                                 </xs:element>
                                                             </xs:sequence>

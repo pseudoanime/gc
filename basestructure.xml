@@ -14,52 +14,50 @@
             </personalisation_flags>
             <membership_pack>
                 <address_information>
-                    <Person type="member">
+                    <member>
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
-                        <address>123 Example Street, AB1 1ZZ</address>
+                        <address>123 Example Street|AB1 1ZZ</address>
                         <email>abc@gmail.com</email>
                         <dob>1900-01-01</dob>
                         <religion>Religion name</religion>
-                    </Person>
-                    <Person type="funeral_director">
-                        <title>Mr</title>
-                        <first_name>Joe</first_name>
-                        <last_name>Bloggs</last_name>
+                    </member>
+                    <funeral_director>
+                        <name>Funeral director name</name>
+                        <old_name>Funeral director old name</old_name>
                         <address>123 Example Street</address>
+                        <old_address>Old Address</old_address>
                         <email>abc@gmail.com</email>
                         <phone>123-123-123</phone>
-                    </Person>
-                    <Person type="representative">
+                    </funeral_director>
+                    <representative>
                         <title>Mr</title>
                         <first_name>John</first_name>
                         <last_name>Doe</last_name>
                         <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
                         <relationship>Parent</relationship>
-                    </Person>
-                    <Person type="next_of_kin">
+                    </representative>
+                    <next_of_kin>
                         <title>Mr</title>
                         <first_name>John</first_name>
                         <last_name>Doe</last_name>
                         <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
                         <relationship>Father</relationship>
-                    </Person>
-                    <Person type="grave_owner">
+                    </next_of_kin>
+                    <grave_owner>
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
                         <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
-                    </Person>
-                    <Person type="seller">
-                        <title>Mr</title>
-                        <first_name>Seller</first_name>
-                        <last_name>Seller</last_name>
+                    </grave_owner>
+                    <seller>
+                        <name>Seller</name>
                         <address>Seller address</address>
-                    </Person>
+                    </seller>
                 </address_information>
                 <financial_information>
                     <account_name>abc</account_name>
@@ -177,7 +175,7 @@
             </personalisation_flags>
             <membership_pack>
                 <address_information>
-                    <Person type="member">
+                    <member>
                         <title>Mr</title>
                         <first_name>Joe</first_name>
                         <last_name>Bloggs</last_name>
@@ -185,23 +183,21 @@
                         <email>abc@gmail.com</email>
                         <dob>1900-01-01</dob>
                         <religion>Religion name</religion>
-                    </Person>
-                    <Person type="funeral_director">
-                        <title>Mr</title>
-                        <first_name>Joe</first_name>
-                        <last_name>Bloggs</last_name>
+                    </member>
+                    <funeral_director>
+                        <name>funeral director name</name>
                         <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
                         <phone>123-123-123</phone>
-                    </Person>
-                    <Person type="representative">
+                    </funeral_director>
+                    <representative>
                         <title>Mr</title>
                         <first_name>John</first_name>
                         <last_name>Doe</last_name>
                         <address>123 Example Street</address>
                         <email>abc@gmail.com</email>
                         <relationship>Parent</relationship>
-                    </Person>
+                    </representative>
                 </address_information>
                 <financial_information>
                     <amount>TO BE FILLED IN</amount>
