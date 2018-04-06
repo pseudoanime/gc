@@ -212,7 +212,8 @@
                     <start_date>2017-11-01</start_date>
                     <service>Service Information</service>
                     <car_number>2</car_number>
-                    <Cremation crematorium="Crematorium Name" urn_type="Urn Type" disposal="Disposal Type"/>
+                    <cremation crematorium="Crematorium Name" urn_type="Urn Type" disposal="Disposal Type"/>
+                    <tc></tc>
                     <memorial_type>abc</memorial_type>
                     <additional_information>Additional information on the plan</additional_information>
                     <payment_method>Single Payment</payment_method>

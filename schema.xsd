@@ -134,7 +134,7 @@
                                                     <xs:element name="plan_details">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element type="xs:string" name="plan_category" minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="plan_category"/>
                                                                 <xs:element name="promotion" minOccurs="0">
                                                                     <xs:complexType>
                                                                         <xs:attribute type="xs:date" name="date" use="required"/>
@@ -173,7 +173,7 @@
                                                                     </xs:complexType>
                                                                 </xs:element>
                                                                 <xs:choice minOccurs="0" maxOccurs="1">
-                                                                    <xs:element name="Cremation" minOccurs="0" maxOccurs="1">
+                                                                    <xs:element name="cremation" minOccurs="0" maxOccurs="1">
                                                                         <xs:complexType>
                                                                             <xs:simpleContent>
                                                                                 <xs:extension base="xs:string">
@@ -200,7 +200,7 @@
                                                                     </xs:element>
                                                                 </xs:choice>
                                                                 <xs:element type="xs:string" name="coffin" minOccurs="0"/>
-                                                                <xs:element type="xs:string" name="tc" minOccurs="0"/>
+                                                                <xs:element type="xs:string" name="tc"/>
                                                                 <xs:element type="xs:string" name="memorial_type" minOccurs="0"/>
                                                                 <xs:element type="xs:string" name="additional_information" minOccurs="0" maxOccurs="1"/>
                                                                 <xs:element type="xs:string" name="payment_method"/>
