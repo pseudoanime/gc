@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <supply_date>2017-11-01</supply_date>
+    <records>
+        <record>
+            <trigger_code>100</trigger_code>
+            <brander_code>LGC</brander_code>
+            <plan_type>Value</plan_type>
+            <plan_version></plan_version>
+            <payment_type>Single payment</payment_type>
+            <payment_party>Plan Holder</payment_party>
+            <payment_status></payment_status>
+            <member_title>Mr</member_title>
+            <member_first_name>Joe</member_first_name>
+            <member_last_name>Bloggs</member_last_name>
+            <member_address>123 Example Street,AB1 1ZZ</member_address>
+            <member_telephone>123456789</member_telephone>
+            <member_email>abc@gmail.com</member_email>
+            <member_dob>1900-01-01</member_dob>
+            <member_religion>Religion name</member_religion>
+            <funeral_director_name>Funeral director name</funeral_director_name>
+            <funeral_director_old_name>Funeral director old name</funeral_director_old_name>
+            <funeral_director_address>123 Example Street</funeral_director_address>
+            <funeral_director_old_address>Old Address</funeral_director_old_address>
+            <funeral_director_email>abc@gmail.com</funeral_director_email>
+            <funeral_director_phone>123-123-123</funeral_director_phone>
+            <representative_title>Mr</representative_title>
+            <representative_first_name>John</representative_first_name>
+            <representative_last_name>Doe</representative_last_name>
+            <representative_address>123 Example Street</representative_address>
+            <representative_email>abc@gmail.com</representative_email>
+            <representative_relationship>Parent</representative_relationship>
+            <next_of_kin_title>Mr</next_of_kin_title>
+            <next_of_kin_first_name>John</next_of_kin_first_name>
+            <next_of_kin_last_name>Doe</next_of_kin_last_name>
+            <next_of_kin_address>123 Example Street</next_of_kin_address>
+            <next_of_kin_email>abc@gmail.com</next_of_kin_email>
+            <next_of_kin_relationship>Father</next_of_kin_relationship>
+            <grave_owner_title>Mr</grave_owner_title>
+            <grave_owner_first_name>Joe</grave_owner_first_name>
+            <grave_owner_last_name>Bloggs</grave_owner_last_name>
+            <grave_owner_address>123 Example Street</grave_owner_address>
+            <grave_owner_email>abc@gmail.com</grave_owner_email>
+            <seller_name>Seller</seller_name>
+            <seller_address>Seller address</seller_address>
+            <account_name>abc</account_name>
+            <account_number>12345</account_number>
+            <sort_code>112233</sort_code>
+            <amount>100</amount>
+            <discount>10</discount>
+            <dd_amount>30000</dd_amount>
+            <dd_monthly_payment>300.09</dd_monthly_payment>
+            <dd_start_month>October 2017</dd_start_month>
+            <sp_overpayment>100.1</sp_overpayment>
+            <plan_category>ABC</plan_category>
+            <promotion_date>2018-01-01</promotion_date>
+            <rbl_donation>12.00</rbl_donation>
+            <plan_number>20052035</plan_number>
+            <date_signed>2017-11-01</date_signed>
+            <application_date>2017-11-01</application_date>
+            <plan_start_date>2017-11-01</plan_start_date>
+            <five_year_guarantee_start_date>2018-01-01</five_year_guarantee_start_date>
+            <five_year_guarantee_end_date>2023-01-01</five_year_guarantee_end_date>
+            <sum_assured>2000</sum_assured>
+            <sum_assured_plus>3000</sum_assured_plus>
+            <funeral_benefit_value>250</funeral_benefit_value>
+            <funeral_benefit_value2>50</funeral_benefit_value2>
+            <policy_number>12345</policy_number>
+            <plan_value_statement>plan value statement</plan_value_statement>
+            <sfs_partner>Name of Partner</sfs_partner>
+            <gc_contribution>100</gc_contribution>
+            <service_information>Service Information</service_information>
+            <car_number>1</car_number>
+            <church_name>name of church</church_name>
+            <clergy_name>clergy name</clergy_name>
+            <church_telephone>123456789</church_telephone>
+            <burial_cemetery>Cemetery name</burial_cemetery>
+            <burial_grave_owned>Y</burial_grave_owned>
+            <burial_grave_class>Grave class</burial_grave_class>
+            <burial_grave_section>Grave section</burial_grave_section>
+            <burial_lair_number>1234</burial_lair_number>
+            <burial_certificate_number>1234</burial_certificate_number>
+            <coffin>coffin type</coffin>
+            <tc>TC1234</tc>
+            <payment_method>Single Payment</payment_method>
+            <additional_information>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
+                Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
+                Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
+                bibendum pellentesque. Nunc blandit condimentum lorem, ut tempus metus tincidunt et. Nullam vel
+                neque venenatis, malesuada orci tempus, pulvinar odio. Sed et ex cursus velit hendrerit eleifend
+                a a felis. Aenean dolor urna, fringilla a massa vel, consequat ullamcorper sem. Duis nisi lorem,
+                placerat vitae nunc quis, congue laoreet magna. Duis ac luctus lorem. Sed eget ex vitae dolor
+                pellentesque tincidunt eu vel augue. Nullam sed porttitor mauris. Nullam tristique metus id
+                velit vestibulum, tempor aliquam massa tempor.&#xA;In tincidunt sem ullamcorper erat elementum,
+                ac pretium urna sodales. Suspendisse a congue nunc.&#xA;</additional_information>
+            <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
+                Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
+                Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
+                bibendum pellentesque. Nunc blandit condimentum lorem, ut tempus metus tincidunt et. Nullam vel
+                neque venenatis, malesuada orci tempus, pulvinar odio. Sed et ex cursus velit hendrerit eleifend
+                a a felis. Aenean dolor urna, fringilla a massa vel, consequat ullamcorper sem. Duis nisi lorem,
+                placerat vitae nunc quis, congue laoreet magna. Duis ac luctus lorem. Sed eget ex vitae dolor
+                pellentesque tincidunt eu vel augue. Nullam sed porttitor mauris. Nullam tristique metus id
+                velit vestibulum, tempor aliquam massa tempor.&#xA;In tincidunt sem ullamcorper erat elementum,
+                ac pretium urna sodales. Suspendisse a congue nunc.&#xA;Aliquam erat volutpat. Donec dignissim
+                justo porta sapien faucibus tincidunt. Pellentesque placerat finibus porta. Quisque imperdiet
+                nibh in felis laoreet, ornare egestas orci faucibus. In sed justo ligula. Donec eget magna ut
+                turpis bibendum feugiat non non diam. Pellentesque vel nulla nibh. Nam placerat sit amet lorem
+                at faucibus. Curabitur sed purus dolor. Donec euismo odio nec cursus tristique. Praesent
+                efficitur congue pulvinar.&#xA;Sed gravida lorem orci, idporta mauris luctus et. Phasellus
+                blandit, ante a sollicitudinfaucibus, risus justo interdumdui, at fermentum mi risus et dolor.
+                Etiam interdum tempormattis. Interdum et malesuada fames acante ipsum primis in faucibus. Sed
+                ultrices, libero quisfacilisis eleifend, ligula arcu pretiumneque, ac dapibus eros mauris a
+                urna. Vivamus dignissimeuismod eros, in ultrices leo dignissimac. Nunc semper, nulla id sodales
+                molestie, sapien risusfacilisis sapien, gravida pharetra erosfelis vel arcu. Sed ultricies
+                maximus eleifend.
+            </freeform_text>
+            <fd_services>
+                <fd_row>
+                    <col1>4 x Bearers</col1>
+                    <col2>216.00</col2>
+                </fd_row>
+                <fd_row>
+                    <col1>Additional time for church service</col1>
+                    <col2>80.00</col2>
+                </fd_row>
+                <fd_row>
+                    <col1>Coffin</col1>
+                    <col2>840.00</col2>
+                </fd_row>
+                <fd_row>
+                    <col1>Funeral Director</col1>
+                    <col2>95.00</col2>
+                </fd_row>
+                <fd_row>
+                    <col1>Hearse</col1>
+                    <col2>215.00</col2>
+                </fd_row>
+                <fd_row>
+                    <col1>Oak Casket</col1>
+                    <col2>99.00</col2>
+                </fd_row>
+                <fd_row>
+                    <col1>Professional Services</col1>
+                    <col2>945.00</col2>
+                </fd_row>
+                <fd_row>
+                    <col1>Removal of deceased</col1>
+                    <col2>245.00</col2>
+                </fd_row>
+                <fd_row>
+                    <col1>Two limousines</col1>
+                    <col2>430.00</col2>
+                </fd_row>
+            </fd_services>
+            <disbursements>
+                <disbursement_row>
+                    <col1>100 Service sheets</col1>
+                    <col2>255.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>All licenses (exclusive right &amp; interment fee - paid direct for erection of stone memorial)</col1>
+                    <col2>49.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Choir</col1>
+                    <col2>100</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Clergy fee</col1>
+                    <col2>216.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Crematorium fee</col1>
+                    <col2>686.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Doctor's fee(cremation certificate)</col1>
+                    <col2>164.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Donations postage</col1>
+                    <col2>6.45</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Fees for place of worship (organist)</col1>
+                    <col2>75.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Fees for place of worship (verger/church officer)</col1>
+                    <col2>35.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Floral tribute</col1>
+                    <col2>100.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Horse drawn hearse</col1>
+                    <col2>1500.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Hygienic treatment services</col1>
+                    <col2>145.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Minister&apos;s fees</col1>
+                    <col2>161.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Newspaper notices</col1>
+                    <col2>200.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Polished granite with inscription, supply &amp; fitting</col1>
+                    <col2>481.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Preparation of Grave</col1>
+                    <col2>64.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Professional Fee</col1>
+                    <col2>100.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Soprano Soloist</col1>
+                    <col2>100.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Temp. Grave Marker</col1>
+                    <col2>100.00</col2>
+                </disbursement_row>
+                <disbursement_row>
+                    <col1>Tenor Soloist</col1>
+                    <col2>199.00</col2>
+                </disbursement_row>
+            </disbursements>
+        </record>
+    </records>
+</data>
