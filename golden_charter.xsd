@@ -57,6 +57,8 @@
                     <xs:element type="xs:short" name="dd_amount"/>
                     <xs:element type="xs:float" name="dd_monthly_payment"/>
                     <xs:element type="xs:string" name="dd_start_month"/>
+                    <xs:element type="xs:float" name="administration_fee" minOccurs="0"/>
+                    <xs:element type="xs:float" name="total_cost" minOccurs="0"/>
                     <xs:element type="xs:float" name="sp_overpayment"/>
                     <xs:element type="xs:string" name="plan_category"/>
                     <xs:element type="xs:date" name="promotion_date" minOccurs="0"/>

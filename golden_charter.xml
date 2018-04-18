@@ -51,6 +51,8 @@
             <dd_amount>30000</dd_amount>
             <dd_monthly_payment>300.09</dd_monthly_payment>
             <dd_start_month>October 2017</dd_start_month>
+            <administration_fee>10.00</administration_fee>
+            <total_cost>10000.00</total_cost>
             <sp_overpayment>100.1</sp_overpayment>
             <plan_category>ABC</plan_category>
             <promotion_date>2018-01-01</promotion_date>
