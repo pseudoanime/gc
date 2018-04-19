@@ -6,10 +6,10 @@
         <xs:element name="records">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="record">
+              <xs:element name="record" minOccurs="1" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element type="xs:byte" name="trigger_code"/>
+                    <xs:element type="xs:string" name="trigger_code"/>
                     <xs:element type="xs:string" name="brander_code"/>
                     <xs:element type="xs:string" name="plan_type"/>
                     <xs:element type="xs:string" name="plan_version"/>
@@ -19,47 +19,75 @@
                     <xs:element type="xs:string" name="member_title"/>
                     <xs:element type="xs:string" name="member_first_name"/>
                     <xs:element type="xs:string" name="member_last_name"/>
-                    <xs:element type="xs:string" name="member_address"/>
-                    <xs:element type="xs:positiveInteger" name="member_telephone" minOccurs="0"/>
+                    <xs:element type="xs:string" name="member_address_line_1"/>
+                    <xs:element type="xs:string" name="member_address_line_2" minOccurs="0"/>
+                    <xs:element type="xs:string" name="member_address_line_3" minOccurs="0"/>
+                    <xs:element type="xs:string" name="member_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="member_postcode"/>
+                    <xs:element type="xs:string" name="member_telephone" minOccurs="0"/>
                     <xs:element type="xs:string" name="member_email" minOccurs="0"/>
                     <xs:element type="xs:date" name="member_dob"/>
                     <xs:element type="xs:string" name="member_religion" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_name"/>
                     <xs:element type="xs:string" name="funeral_director_old_name" minOccurs="0"/>
-                    <xs:element type="xs:string" name="funeral_director_address"/>
-                    <xs:element type="xs:string" name="funeral_director_old_address" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_address_line_1"/>
+                    <xs:element type="xs:string" name="funeral_director_address_line_2" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_address_line_3" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_postcode"/>
+                    <xs:element type="xs:string" name="funeral_director_old_address_line_1" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_old_address_line_2" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_old_address_line_3" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_old_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_old_postcode" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_email" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_phone"/>
                     <xs:element type="xs:string" name="representative_title" minOccurs="0"/>
                     <xs:element type="xs:string" name="representative_first_name" minOccurs="0"/>
                     <xs:element type="xs:string" name="representative_last_name" minOccurs="0"/>
-                    <xs:element type="xs:string" name="representative_address" minOccurs="0"/>
+                    <xs:element type="xs:string" name="representative_address_line_1" minOccurs="0"/>
+                    <xs:element type="xs:string" name="representative_address_line_2" minOccurs="0"/>
+                    <xs:element type="xs:string" name="representative_address_line_3" minOccurs="0"/>
+                    <xs:element type="xs:string" name="representative_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="representative_postcode" minOccurs="0"/>
                     <xs:element type="xs:string" name="representative_email" minOccurs="0"/>
                     <xs:element type="xs:string" name="representative_relationship" minOccurs="0"/>
                     <xs:element type="xs:string" name="next_of_kin_title" minOccurs="0"/>
                     <xs:element type="xs:string" name="next_of_kin_first_name" minOccurs="0"/>
                     <xs:element type="xs:string" name="next_of_kin_last_name" minOccurs="0"/>
-                    <xs:element type="xs:string" name="next_of_kin_address" minOccurs="0"/>
+                    <xs:element type="xs:string" name="next_of_kin_address_line_1" minOccurs="0"/>
+                    <xs:element type="xs:string" name="next_of_kin_address_line_2" minOccurs="0"/>
+                    <xs:element type="xs:string" name="next_of_kin_address_line_3" minOccurs="0"/>
+                    <xs:element type="xs:string" name="next_of_kin_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="next_of_kin_postcode" minOccurs="0"/>
                     <xs:element type="xs:string" name="next_of_kin_email" minOccurs="0"/>
                     <xs:element type="xs:string" name="next_of_kin_relationship" minOccurs="0"/>
                     <xs:element type="xs:string" name="grave_owner_title" minOccurs="0"/>
                     <xs:element type="xs:string" name="grave_owner_first_name" minOccurs="0"/>
                     <xs:element type="xs:string" name="grave_owner_last_name" minOccurs="0"/>
-                    <xs:element type="xs:string" name="grave_owner_address" minOccurs="0"/>
+                    <xs:element type="xs:string" name="grave_owner_address_line_1" minOccurs="0"/>
+                    <xs:element type="xs:string" name="grave_owner_address_line_2" minOccurs="0"/>
+                    <xs:element type="xs:string" name="grave_owner_address_line_3" minOccurs="0"/>
+                    <xs:element type="xs:string" name="grave_owner_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="grave_owner_postcode" minOccurs="0"/>
                     <xs:element type="xs:string" name="grave_owner_email" minOccurs="0"/>
                     <xs:element type="xs:string" name="seller_name" minOccurs="0"/>
-                    <xs:element type="xs:string" name="seller_address" minOccurs="0"/>
-                    <xs:element type="xs:string" name="account_name"/>
-                    <xs:element type="xs:short" name="account_number"/>
-                    <xs:element type="xs:int" name="sort_code"/>
-                    <xs:element type="xs:byte" name="amount"/>
-                    <xs:element type="xs:byte" name="discount"/>
-                    <xs:element type="xs:short" name="dd_amount"/>
-                    <xs:element type="xs:float" name="dd_monthly_payment"/>
-                    <xs:element type="xs:string" name="dd_start_month"/>
+                    <xs:element type="xs:string" name="seller_address_line_1" minOccurs="0"/>
+                    <xs:element type="xs:string" name="seller_address_line_2" minOccurs="0"/>
+                    <xs:element type="xs:string" name="seller_address_line_3" minOccurs="0"/>
+                    <xs:element type="xs:string" name="seller_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="seller_postcode" minOccurs="0"/>
+                    <xs:element type="xs:string" name="account_name" minOccurs="0"/>
+                    <xs:element type="xs:float" name="account_number" minOccurs="0"/>
+                    <xs:element type="xs:float" name="sort_code" minOccurs="0"/>
+                    <xs:element type="xs:float" name="amount" minOccurs="0"/>
+                    <xs:element type="xs:float" name="discount" minOccurs="0"/>
+                    <xs:element type="xs:float" name="dd_amount" minOccurs="0"/>
+                    <xs:element type="xs:float" name="dd_monthly_payment" minOccurs="0"/>
+                    <xs:element type="xs:string" name="dd_start_month" minOccurs="0"/>
                     <xs:element type="xs:float" name="administration_fee" minOccurs="0"/>
                     <xs:element type="xs:float" name="total_cost" minOccurs="0"/>
-                    <xs:element type="xs:float" name="sp_overpayment"/>
+                    <xs:element type="xs:float" name="sp_overpayment" minOccurs="0"/>
                     <xs:element type="xs:string" name="plan_category"/>
                     <xs:element type="xs:date" name="promotion_date" minOccurs="0"/>
                     <xs:element type="xs:float" name="rbl_donation" minOccurs="0"/>
@@ -69,19 +97,19 @@
                     <xs:element type="xs:date" name="plan_start_date"/>
                     <xs:element type="xs:date" name="five_year_guarantee_start_date" minOccurs="0"/>
                     <xs:element type="xs:date" name="five_year_guarantee_end_date" minOccurs="0"/>
-                    <xs:element type="xs:short" name="sum_assured"/>
-                    <xs:element type="xs:short" name="sum_assured_plus"/>
-                    <xs:element type="xs:short" name="funeral_benefit_value"/>
-                    <xs:element type="xs:byte" name="funeral_benefit_value2"/>
-                    <xs:element type="xs:short" name="policy_number"/>
-                    <xs:element type="xs:string" name="plan_value_statement"/>
-                    <xs:element type="xs:string" name="sfs_partner"/>
-                    <xs:element type="xs:byte" name="gc_contribution" minOccurs="0"/>
-                    <xs:element type="xs:string" name="service_information"/>
+                    <xs:element type="xs:float" name="sum_assured" minOccurs="0"/>
+                    <xs:element type="xs:float" name="sum_assured_plus" minOccurs="0"/>
+                    <xs:element type="xs:float" name="funeral_benefit_value" minOccurs="0"/>
+                    <xs:element type="xs:float" name="funeral_benefit_value2" minOccurs="0"/>
+                    <xs:element type="xs:float" name="policy_number" minOccurs="0"/>
+                    <xs:element type="xs:string" name="plan_value_statement" minOccurs="0"/>
+                    <xs:element type="xs:string" name="sfs_partner" minOccurs="0"/>
+                    <xs:element type="xs:float" name="gc_contribution" minOccurs="0"/>
+                    <xs:element type="xs:string" name="service_information" minOccurs="0"/>
                     <xs:element type="xs:byte" name="car_number" minOccurs="0"/>
                     <xs:element type="xs:string" name="church_name" minOccurs="0"/>
                     <xs:element type="xs:string" name="clergy_name" minOccurs="0"/>
-                    <xs:element type="xs:int" name="church_telephone" minOccurs="0"/>
+                    <xs:element type="xs:string" name="church_telephone" minOccurs="0"/>
                     <xs:element type="xs:string" name="burial_cemetery" minOccurs="0"/>
                     <xs:element type="xs:string" name="burial_grave_owned" minOccurs="0"/>
                     <xs:element type="xs:string" name="burial_grave_class" minOccurs="0"/>
