@@ -48,6 +48,7 @@
             <sort_code>112233</sort_code>
             <amount>100</amount>
             <discount>10</discount>
+            <dd_frequency>28th of every month</dd_frequency>
             <dd_amount>30000</dd_amount>
             <dd_monthly_payment>300.09</dd_monthly_payment>
             <dd_start_month>October 2017</dd_start_month>

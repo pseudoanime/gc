@@ -79,9 +79,10 @@
                     <xs:element type="xs:string" name="seller_postcode" minOccurs="0"/>
                     <xs:element type="xs:string" name="account_name" minOccurs="0"/>
                     <xs:element type="xs:float" name="account_number" minOccurs="0"/>
-                    <xs:element type="xs:float" name="sort_code" minOccurs="0"/>
+                    <xs:element type="xs:string" name="sort_code" minOccurs="0"/>
                     <xs:element type="xs:float" name="amount" minOccurs="0"/>
                     <xs:element type="xs:float" name="discount" minOccurs="0"/>
+                    <xs:element type="xs:string" name="dd_frequency" minOccurs="0"/>
                     <xs:element type="xs:float" name="dd_amount" minOccurs="0"/>
                     <xs:element type="xs:float" name="dd_monthly_payment" minOccurs="0"/>
                     <xs:element type="xs:string" name="dd_start_month" minOccurs="0"/>

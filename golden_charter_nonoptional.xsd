@@ -1,0 +1,165 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:date" name="supply_date"/>
+        <xs:element name="records">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="record" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="trigger_code"/>
+                    <xs:element type="xs:string" name="brander_code"/>
+                    <xs:element type="xs:string" name="plan_type"/>
+                    <xs:element type="xs:string" name="plan_version"/>
+                    <xs:element type="xs:string" name="payment_type"/>
+                    <xs:element type="xs:string" name="payment_party"/>
+                    <xs:element type="xs:string" name="payment_status"/>
+                    <xs:element type="xs:string" name="member_title"/>
+                    <xs:element type="xs:string" name="member_first_name"/>
+                    <xs:element type="xs:string" name="member_last_name"/>
+                    <xs:element type="xs:string" name="member_address_line_1"/>
+                    <xs:element type="xs:string" name="member_address_line_2"/>
+                    <xs:element type="xs:string" name="member_address_line_3"/>
+                    <xs:element type="xs:string" name="member_address_line_4"/>
+                    <xs:element type="xs:string" name="member_postcode"/>
+                    <xs:element type="xs:string" name="member_telephone"/>
+                    <xs:element type="xs:string" name="member_email"/>
+                    <xs:element type="xs:date" name="member_dob"/>
+                    <xs:element type="xs:string" name="member_religion"/>
+                    <xs:element type="xs:string" name="funeral_director_name"/>
+                    <xs:element type="xs:string" name="funeral_director_old_name"/>
+                    <xs:element type="xs:string" name="funeral_director_address_line_1"/>
+                    <xs:element type="xs:string" name="funeral_director_address_line_2"/>
+                    <xs:element type="xs:string" name="funeral_director_address_line_3"/>
+                    <xs:element type="xs:string" name="funeral_director_address_line_4"/>
+                    <xs:element type="xs:string" name="funeral_director_postcode"/>
+                    <xs:element type="xs:string" name="funeral_director_old_address_line_1"/>
+                    <xs:element type="xs:string" name="funeral_director_old_address_line_2"/>
+                    <xs:element type="xs:string" name="funeral_director_old_address_line_3"/>
+                    <xs:element type="xs:string" name="funeral_director_old_address_line_4"/>
+                    <xs:element type="xs:string" name="funeral_director_old_postcode"/>
+                    <xs:element type="xs:string" name="funeral_director_email"/>
+                    <xs:element type="xs:string" name="funeral_director_phone"/>
+                    <xs:element type="xs:string" name="representative_title"/>
+                    <xs:element type="xs:string" name="representative_first_name"/>
+                    <xs:element type="xs:string" name="representative_last_name"/>
+                    <xs:element type="xs:string" name="representative_address_line_1"/>
+                    <xs:element type="xs:string" name="representative_address_line_2"/>
+                    <xs:element type="xs:string" name="representative_address_line_3"/>
+                    <xs:element type="xs:string" name="representative_address_line_4"/>
+                    <xs:element type="xs:string" name="representative_postcode"/>
+                    <xs:element type="xs:string" name="representative_email"/>
+                    <xs:element type="xs:string" name="representative_relationship"/>
+                    <xs:element type="xs:string" name="next_of_kin_title"/>
+                    <xs:element type="xs:string" name="next_of_kin_first_name"/>
+                    <xs:element type="xs:string" name="next_of_kin_last_name"/>
+                    <xs:element type="xs:string" name="next_of_kin_address_line_1"/>
+                    <xs:element type="xs:string" name="next_of_kin_address_line_2"/>
+                    <xs:element type="xs:string" name="next_of_kin_address_line_3"/>
+                    <xs:element type="xs:string" name="next_of_kin_address_line_4"/>
+                    <xs:element type="xs:string" name="next_of_kin_postcode"/>
+                    <xs:element type="xs:string" name="next_of_kin_email"/>
+                    <xs:element type="xs:string" name="next_of_kin_relationship"/>
+                    <xs:element type="xs:string" name="grave_owner_title"/>
+                    <xs:element type="xs:string" name="grave_owner_first_name"/>
+                    <xs:element type="xs:string" name="grave_owner_last_name"/>
+                    <xs:element type="xs:string" name="grave_owner_address_line_1"/>
+                    <xs:element type="xs:string" name="grave_owner_address_line_2"/>
+                    <xs:element type="xs:string" name="grave_owner_address_line_3"/>
+                    <xs:element type="xs:string" name="grave_owner_address_line_4"/>
+                    <xs:element type="xs:string" name="grave_owner_postcode"/>
+                    <xs:element type="xs:string" name="grave_owner_email"/>
+                    <xs:element type="xs:string" name="seller_name"/>
+                    <xs:element type="xs:string" name="seller_address_line_1"/>
+                    <xs:element type="xs:string" name="seller_address_line_2"/>
+                    <xs:element type="xs:string" name="seller_address_line_3"/>
+                    <xs:element type="xs:string" name="seller_address_line_4"/>
+                    <xs:element type="xs:string" name="seller_postcode"/>
+                    <xs:element type="xs:string" name="account_name"/>
+                    <xs:element type="xs:float" name="account_number"/>
+                    <xs:element type="xs:float" name="sort_code"/>
+                    <xs:element type="xs:string" name="amount"/>
+                    <xs:element type="xs:string" name="discount"/>
+                    <xs:element type="xs:string" name="dd_amount"/>
+                    <xs:element type="xs:string" name="dd_monthly_payment"/>
+                    <xs:element type="xs:string" name="dd_start_month"/>
+                    <xs:element type="xs:string" name="administration_fee"/>
+                    <xs:element type="xs:string" name="total_cost"/>
+                    <xs:element type="xs:string" name="sp_overpayment"/>
+                    <xs:element type="xs:string" name="plan_category"/>
+                    <xs:element type="xs:string" name="promotion_date"/>
+                    <xs:element type="xs:string" name="rbl_donation"/>
+                    <xs:element type="xs:int" name="plan_number"/>
+                    <xs:element type="xs:date" name="date_signed"/>
+                    <xs:element type="xs:date" name="application_date"/>
+                    <xs:element type="xs:date" name="plan_start_date"/>
+                    <xs:element type="xs:string" name="five_year_guarantee_start_date"/>
+                    <xs:element type="xs:string" name="five_year_guarantee_end_date"/>
+                    <xs:element type="xs:string" name="sum_assured"/>
+                    <xs:element type="xs:string" name="sum_assured_plus"/>
+                    <xs:element type="xs:string" name="funeral_benefit_value"/>
+                    <xs:element type="xs:string" name="funeral_benefit_value2"/>
+                    <xs:element type="xs:string" name="policy_number"/>
+                    <xs:element type="xs:string" name="plan_value_statement"/>
+                    <xs:element type="xs:string" name="sfs_partner"/>
+                    <xs:element type="xs:string" name="gc_contribution"/>
+                    <xs:element type="xs:string" name="service_information"/>
+                    <xs:element type="xs:string" name="car_number"/>
+                    <xs:element type="xs:string" name="church_name"/>
+                    <xs:element type="xs:string" name="clergy_name"/>
+                    <xs:element type="xs:string" name="church_telephone"/>
+                    <xs:element type="xs:string" name="burial_cemetery"/>
+                    <xs:element type="xs:string" name="burial_grave_owned"/>
+                    <xs:element type="xs:string" name="burial_grave_class"/>
+                    <xs:element type="xs:string" name="burial_grave_section"/>
+                    <xs:element type="xs:string" name="burial_lair_number"/>
+                    <xs:element type="xs:string" name="burial_certificate_number"/>
+                    <xs:element type="xs:string" name="cremation_crematorium"/>
+                    <xs:element type="xs:string" name="cremation_urn_type"/>
+                    <xs:element type="xs:string" name="cremation_disposal"/>
+                    <xs:element type="xs:string" name="coffin"/>
+                    <xs:element type="xs:string" name="tc"/>
+                    <xs:element type="xs:string" name="payment_method"/>
+                    <xs:element type="xs:string" name="additional_information"/>
+                    <xs:element type="xs:string" name="freeform_text"/>
+                    <xs:element name="fd_services">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="fd_row" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="col1"/>
+                                <xs:element type="xs:float" name="col2"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="disbursements">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="disbursement_row" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="col1"/>
+                                <xs:element type="xs:float" name="col2"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
