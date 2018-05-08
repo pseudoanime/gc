@@ -120,7 +120,7 @@
                     <xs:element type="xs:string" name="cremation_crematorium" minOccurs="0"/>
                     <xs:element type="xs:string" name="cremation_urn_type" minOccurs="0"/>
                     <xs:element type="xs:string" name="cremation_disposal" minOccurs="0"/>
-                    <xs:element type="xs:string" name="coffin"/>
+                    <xs:element type="xs:string" name="coffin" minOccurs="0"/>
                     <xs:element type="xs:string" name="tc"/>
                     <xs:element type="xs:string" name="payment_method"/>
                     <xs:element type="xs:string" name="additional_information" minOccurs="0"/>
