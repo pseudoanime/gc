@@ -23,22 +23,27 @@
                     <xs:element type="xs:string" name="member_address_line_2" minOccurs="0"/>
                     <xs:element type="xs:string" name="member_address_line_3" minOccurs="0"/>
                     <xs:element type="xs:string" name="member_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="member_address_line_5" minOccurs="0"/>
+                    <xs:element type="xs:string" name="member_address_line_6" minOccurs="0"/>
                     <xs:element type="xs:string" name="member_postcode"/>
                     <xs:element type="xs:string" name="member_telephone" minOccurs="0"/>
                     <xs:element type="xs:string" name="member_email" minOccurs="0"/>
                     <xs:element type="xs:date" name="member_dob"/>
-                    <xs:element type="xs:string" name="member_religion" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_name"/>
                     <xs:element type="xs:string" name="funeral_director_old_name" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_address_line_1"/>
                     <xs:element type="xs:string" name="funeral_director_address_line_2" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_address_line_3" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_address_line_5" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_address_line_6" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_postcode"/>
                     <xs:element type="xs:string" name="funeral_director_old_address_line_1" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_old_address_line_2" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_old_address_line_3" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_old_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_old_address_line_5" minOccurs="0"/>
+                    <xs:element type="xs:string" name="funeral_director_old_address_line_6" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_old_postcode" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_email" minOccurs="0"/>
                     <xs:element type="xs:string" name="funeral_director_phone"/>
@@ -49,6 +54,8 @@
                     <xs:element type="xs:string" name="representative_address_line_2" minOccurs="0"/>
                     <xs:element type="xs:string" name="representative_address_line_3" minOccurs="0"/>
                     <xs:element type="xs:string" name="representative_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="representative_address_line_5" minOccurs="0"/>
+                    <xs:element type="xs:string" name="representative_address_line_6" minOccurs="0"/>
                     <xs:element type="xs:string" name="representative_postcode" minOccurs="0"/>
                     <xs:element type="xs:string" name="representative_email" minOccurs="0"/>
                     <xs:element type="xs:string" name="representative_relationship" minOccurs="0"/>
@@ -59,6 +66,8 @@
                     <xs:element type="xs:string" name="next_of_kin_address_line_2" minOccurs="0"/>
                     <xs:element type="xs:string" name="next_of_kin_address_line_3" minOccurs="0"/>
                     <xs:element type="xs:string" name="next_of_kin_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="next_of_kin_address_line_5" minOccurs="0"/>
+                    <xs:element type="xs:string" name="next_of_kin_address_line_6" minOccurs="0"/>
                     <xs:element type="xs:string" name="next_of_kin_postcode" minOccurs="0"/>
                     <xs:element type="xs:string" name="next_of_kin_email" minOccurs="0"/>
                     <xs:element type="xs:string" name="next_of_kin_relationship" minOccurs="0"/>
@@ -69,6 +78,8 @@
                     <xs:element type="xs:string" name="grave_owner_address_line_2" minOccurs="0"/>
                     <xs:element type="xs:string" name="grave_owner_address_line_3" minOccurs="0"/>
                     <xs:element type="xs:string" name="grave_owner_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="grave_owner_address_line_5" minOccurs="0"/>
+                    <xs:element type="xs:string" name="grave_owner_address_line_6" minOccurs="0"/>
                     <xs:element type="xs:string" name="grave_owner_postcode" minOccurs="0"/>
                     <xs:element type="xs:string" name="grave_owner_email" minOccurs="0"/>
                     <xs:element type="xs:string" name="seller_name" minOccurs="0"/>
@@ -76,6 +87,8 @@
                     <xs:element type="xs:string" name="seller_address_line_2" minOccurs="0"/>
                     <xs:element type="xs:string" name="seller_address_line_3" minOccurs="0"/>
                     <xs:element type="xs:string" name="seller_address_line_4" minOccurs="0"/>
+                    <xs:element type="xs:string" name="seller_address_line_5" minOccurs="0"/>
+                    <xs:element type="xs:string" name="seller_address_line_6" minOccurs="0"/>
                     <xs:element type="xs:string" name="seller_postcode" minOccurs="0"/>
                     <xs:element type="xs:string" name="account_name" minOccurs="0"/>
                     <xs:element type="xs:float" name="account_number" minOccurs="0"/>
