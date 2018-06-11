@@ -307,7 +307,7 @@
                                         <xs:element name="wb_plot_number" minOccurs="0" type="xs:positiveInteger"/>
                                         <xs:element name="wb_tree_number" minOccurs="0" type="xs:positiveInteger"/>
                                         <xs:element name="memorial_type" minOccurs="0" type="xs:string"/>
-                                        <xs:element name="burial_or_cremation field" minOccurs="0" type="xs:string"/>
+                                        <xs:element name="burial_or_cremation" minOccurs="0" type="xs:string"/>
                                         <xs:element name="fd_arrangement_fee" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:decimal">
