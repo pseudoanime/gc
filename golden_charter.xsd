@@ -186,6 +186,13 @@
                                         </xs:element>
                                         <xs:element type="xs:date" name="five_year_guarantee_start_date" minOccurs="0"/>
                                         <xs:element type="xs:date" name="five_year_guarantee_end_date" minOccurs="0"/>
+                                        <xs:element name="source" minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="(tmg|)"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element name="sum_assured" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:decimal">
@@ -241,7 +248,6 @@
                                         <xs:element type="xs:string" name="cremation_urn_type" minOccurs="0"/>
                                         <xs:element type="xs:string" name="cremation_disposal" minOccurs="0"/>
                                         <xs:element type="xs:string" name="coffin" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="tc"/>
                                         <xs:element type="xs:string" name="payment_method"/>
                                         <xs:element type="xs:string" name="additional_information" minOccurs="0"/>
                                         <xs:element type="xs:string" name="freeform_text" minOccurs="0"/>
