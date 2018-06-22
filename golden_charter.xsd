@@ -186,13 +186,6 @@
                                         </xs:element>
                                         <xs:element type="xs:date" name="five_year_guarantee_start_date" minOccurs="0"/>
                                         <xs:element type="xs:date" name="five_year_guarantee_end_date" minOccurs="0"/>
-                                        <xs:element name="source" minOccurs="0">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                    <xs:pattern value="(tmg|)"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
                                         <xs:element name="sum_assured" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:decimal">
@@ -272,7 +265,13 @@
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element type="xs:string" name="col1"/>
-                                                                <xs:element type="xs:float" name="col2"/>
+                                                                <xs:element type="xs:float" name="col2">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:decimal">
+                                                                            <xs:fractionDigits value="2"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
@@ -286,13 +285,20 @@
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element type="xs:string" name="col1"/>
-                                                                <xs:element type="xs:float" name="col2"/>
+                                                                <xs:element type="xs:float" name="col2">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:decimal">
+                                                                            <xs:fractionDigits value="2"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
+                                        <xs:element name="burial_or_cremation" minOccurs="0" type="xs:string"/>
                                         <xs:element name="will">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
@@ -313,7 +319,6 @@
                                         <xs:element name="wb_plot_number" minOccurs="0" type="xs:positiveInteger"/>
                                         <xs:element name="wb_tree_number" minOccurs="0" type="xs:positiveInteger"/>
                                         <xs:element name="memorial_type" minOccurs="0" type="xs:string"/>
-                                        <xs:element name="burial_or_cremation" minOccurs="0" type="xs:string"/>
                                         <xs:element name="fd_arrangement_fee" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:decimal">
@@ -322,6 +327,13 @@
                                             </xs:simpleType>
                                         </xs:element>
                                         <xs:element name="disclaimer" minOccurs="0" type="xs:string"/>
+                                        <xs:element name="source" minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="(tmg|)"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
