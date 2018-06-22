@@ -265,7 +265,7 @@
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element type="xs:string" name="col1"/>
-                                                                <xs:element type="xs:float" name="col2">
+                                                                <xs:element name="col2">
                                                                     <xs:simpleType>
                                                                         <xs:restriction base="xs:decimal">
                                                                             <xs:fractionDigits value="2"/>
@@ -285,7 +285,7 @@
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element type="xs:string" name="col1"/>
-                                                                <xs:element type="xs:float" name="col2">
+                                                                <xs:element name="col2">
                                                                     <xs:simpleType>
                                                                         <xs:restriction base="xs:decimal">
                                                                             <xs:fractionDigits value="2"/>
