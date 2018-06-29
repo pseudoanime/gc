@@ -6,7 +6,6 @@
             <trigger_code>100</trigger_code>
             <brander_code>LGC</brander_code>
             <plan_type>Value</plan_type>
-            <plan_version></plan_version>
             <payment_type>Single payment</payment_type>
             <payment_party>Plan Holder</payment_party>
             <payment_status></payment_status>

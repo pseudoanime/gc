@@ -13,7 +13,6 @@
                                         <xs:element type="xs:string" name="trigger_code"/>
                                         <xs:element type="xs:string" name="brander_code"/>
                                         <xs:element type="xs:string" name="plan_type"/>
-                                        <xs:element type="xs:string" name="plan_version"/>
                                         <xs:element type="xs:string" name="payment_type"/>
                                         <xs:element type="xs:string" name="payment_party"/>
                                         <xs:element type="xs:string" name="payment_status"/>
@@ -251,7 +250,13 @@
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element type="xs:string" name="col1"/>
-                                                                <xs:element type="xs:float" name="col2"/>
+                                                                <xs:element name="col2">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:decimal">
+                                                                            <xs:fractionDigits value="2"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
