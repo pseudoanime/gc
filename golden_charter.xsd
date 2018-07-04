@@ -8,7 +8,7 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="record" minOccurs="1" maxOccurs="unbounded">
-                                <xs:complexType>
+                                <xs:complexType mixed="true">
                                     <xs:sequence>
                                         <xs:element type="xs:string" name="trigger_code"/>
                                         <xs:element type="xs:string" name="brander_code"/>
@@ -16,6 +16,7 @@
                                         <xs:element type="xs:string" name="payment_type"/>
                                         <xs:element type="xs:string" name="payment_party"/>
                                         <xs:element type="xs:string" name="payment_status"/>
+                                        <xs:element type="xs:int" name="plan_number"/>
                                         <xs:element type="xs:string" name="member_title"/>
                                         <xs:element type="xs:string" name="member_first_name"/>
                                         <xs:element type="xs:string" name="member_last_name"/>
@@ -29,37 +30,6 @@
                                         <xs:element type="xs:string" name="member_telephone" minOccurs="0"/>
                                         <xs:element type="xs:string" name="member_email" minOccurs="0"/>
                                         <xs:element type="xs:date" name="member_dob" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_name"/>
-                                        <xs:element type="xs:string" name="funeral_director_old_name" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_address_line_1"/>
-                                        <xs:element type="xs:string" name="funeral_director_address_line_2"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_address_line_3"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_address_line_4"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_address_line_5"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_address_line_6"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_postcode"/>
-                                        <xs:element type="xs:string" name="funeral_director_old_address_line_1"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_old_address_line_2"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_old_address_line_3"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_old_address_line_4"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_old_address_line_5"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_old_address_line_6"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_old_postcode"
-                                                    minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_email" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_phone"/>
-                                        <xs:element type="xs:string" name="customer_service_number"/>
                                         <xs:element type="xs:string" name="representative_organisation" minOccurs="0"/>
                                         <xs:element type="xs:string" name="representative_title" minOccurs="0"/>
                                         <xs:element type="xs:string" name="representative_first_name" minOccurs="0"/>
@@ -79,6 +49,36 @@
                                         <xs:element type="xs:string" name="representative_postcode" minOccurs="0"/>
                                         <xs:element type="xs:string" name="representative_email" minOccurs="0"/>
                                         <xs:element type="xs:string" name="representative_relationship" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_name"/>
+                                        <xs:element type="xs:string" name="funeral_director_address_line_1"/>
+                                        <xs:element type="xs:string" name="funeral_director_address_line_2"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_address_line_3"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_address_line_4"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_address_line_5"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_address_line_6"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_postcode"/>
+                                        <xs:element type="xs:string" name="funeral_director_old_name" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_old_address_line_1"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_old_address_line_2"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_old_address_line_3"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_old_address_line_4"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_old_address_line_5"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_old_address_line_6"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_old_postcode"
+                                                    minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_email" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="funeral_director_phone"/>
                                         <xs:element type="xs:string" name="next_of_kin_title" minOccurs="0"/>
                                         <xs:element type="xs:string" name="next_of_kin_first_name" minOccurs="0"/>
                                         <xs:element type="xs:string" name="next_of_kin_last_name" minOccurs="0"/>
@@ -103,10 +103,41 @@
                                         <xs:element type="xs:string" name="grave_owner_postcode" minOccurs="0"/>
                                         <xs:element type="xs:string" name="grave_owner_email" minOccurs="0"/>
                                         <xs:element type="xs:string" name="provider_name" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="account_name" minOccurs="0"/>
-                                        <xs:element type="xs:float" name="account_number" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="sort_code" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="customer_service_number"/>
+                                        <xs:element type="xs:string" name="plan_category"/>
+                                        <xs:element type="xs:date" name="tc_date_field"/>
+                                        <xs:element name="will">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[yYnN]{1}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="guaranteed">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[yYnN]{1}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element type="xs:date" name="five_year_guarantee_start_date" minOccurs="0"/>
+                                        <xs:element type="xs:date" name="five_year_guarantee_end_date" minOccurs="0"/>
+                                        <xs:element name="disclaimer" minOccurs="0" type="xs:string"/>
+                                        <xs:element name="source" minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="(tmg|)"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element name="amount_paid" maxOccurs="1" minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:fractionDigits value="2"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="deposit" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:decimal">
                                                     <xs:fractionDigits value="2"/>
@@ -120,71 +151,6 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="dd_frequency">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:positiveInteger">
-                                                    <xs:minInclusive value="1"/>
-                                                    <xs:maxInclusive value="31"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element name="deposit" minOccurs="0" maxOccurs="1">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:decimal">
-                                                    <xs:fractionDigits value="2"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element name="monthly_payment" minOccurs="0" maxOccurs="1">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:decimal">
-                                                    <xs:fractionDigits value="2"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element type="xs:date" name="dd_start_month" minOccurs="0"/>
-                                        <xs:element type="xs:date" name="dd_finish_date" minOccurs="0"/>
-                                        <xs:element name="administration_fee" minOccurs="0" maxOccurs="1">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:decimal">
-                                                    <xs:fractionDigits value="2"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element name="total_price" minOccurs="0" maxOccurs="1">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:decimal">
-                                                    <xs:fractionDigits value="2"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element name="sp_overpayment" minOccurs="0" maxOccurs="1">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:decimal">
-                                                    <xs:fractionDigits value="2"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element type="xs:string" name="plan_category"/>
-                                        <xs:element type="xs:date" name="promotion_date" minOccurs="0"/>
-                                        <xs:element name="rbl_donation" minOccurs="0" maxOccurs="1">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:decimal">
-                                                    <xs:fractionDigits value="2"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element type="xs:int" name="plan_number"/>
-                                        <xs:element type="xs:date" name="plan_start_date"/>
-                                        <xs:element name="guaranteed">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                    <xs:pattern value="[yYnN]{1}"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element type="xs:date" name="five_year_guarantee_start_date" minOccurs="0"/>
-                                        <xs:element type="xs:date" name="five_year_guarantee_end_date" minOccurs="0"/>
                                         <xs:element name="sum_assured" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:decimal">
@@ -214,6 +180,57 @@
                                             </xs:simpleType>
                                         </xs:element>
                                         <xs:element type="xs:float" name="policy_number" minOccurs="0"/>
+                                        <xs:element type="xs:date" name="promotion_date" minOccurs="0"/>
+                                        <xs:element name="promotion_amount" minOccurs="0" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:fractionDigits value="2"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="sp_overpayment" minOccurs="0" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:fractionDigits value="2"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="rbl_donation" minOccurs="0" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:fractionDigits value="2"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="account_name" minOccurs="0"/>
+                                        <xs:element type="xs:float" name="account_number" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="sort_code" minOccurs="0"/>
+                                        <xs:element name="dd_frequency">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:positiveInteger">
+                                                    <xs:minInclusive value="1"/>
+                                                    <xs:maxInclusive value="31"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element type="xs:date" name="dd_start_date" minOccurs="0"/>
+                                        <xs:element type="xs:date" name="dd_finish_date" minOccurs="0"/>
+                                        <xs:element name="monthly_payment" minOccurs="0" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:fractionDigits value="2"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="wb_site_name" minOccurs="0" type="xs:string"/>
+                                        <xs:element name="wb_area" minOccurs="0" type="xs:string"/>
+                                        <xs:element name="wb_tier_number" minOccurs="0" type="xs:positiveInteger"/>
+                                        <xs:element name="wb_plot_number" minOccurs="0" type="xs:positiveInteger"/>
+                                        <xs:element name="wb_tree_number" minOccurs="0" type="xs:positiveInteger"/>
+                                        <xs:element type="xs:date" name="plan_start_date"/>
+                                        <xs:element type="xs:string" name="place_of_service" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="officiant_name" minOccurs="0"/>
+                                        <xs:element name="burial_or_cremation" minOccurs="0" type="xs:string"/>
                                         <xs:element type="xs:string" name="service_information" minOccurs="0"/>
                                         <xs:element name="car_number" minOccurs="0">
                                             <xs:simpleType>
@@ -222,9 +239,11 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element type="xs:string" name="place_of_service" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="officiant_name" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="cremation_crematorium" minOccurs="0"/>
                                         <xs:element type="xs:string" name="burial_cemetery" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="cremation_urn_type" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="coffin" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="cremation_disposal" minOccurs="0"/>
                                         <xs:element name="burial_grave_owned" minOccurs="0">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
@@ -232,17 +251,33 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element type="xs:string" name="burial_grave_class" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="burial_grave_section" minOccurs="0"/>
                                         <xs:element type="xs:integer" name="burial_lair_number" minOccurs="0"/>
                                         <xs:element type="xs:integer" name="burial_certificate_number" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="cremation_crematorium" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="cremation_urn_type" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="cremation_disposal" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="coffin" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="payment_method"/>
+                                        <xs:element type="xs:string" name="burial_grave_class" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="burial_grave_section" minOccurs="0"/>
+                                        <xs:element name="memorial_type" minOccurs="0" type="xs:string"/>
                                         <xs:element type="xs:string" name="additional_information" minOccurs="0"/>
-                                        <xs:element type="xs:string" name="freeform_text" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="payment_method"/>
+                                        <xs:element name="personalisation_options" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="po_row" maxOccurs="unbounded" minOccurs="0">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element type="xs:string" name="col1"/>
+                                                                <xs:element name="col2">
+                                                                    <xs:simpleType>
+                                                                        <xs:restriction base="xs:decimal">
+                                                                            <xs:fractionDigits value="2"/>
+                                                                        </xs:restriction>
+                                                                    </xs:simpleType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
                                         <xs:element name="fd_services" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
@@ -283,47 +318,6 @@
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="personalisation_options" minOccurs="0">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="po_row" maxOccurs="unbounded" minOccurs="0">
-                                                        <xs:complexType>
-                                                            <xs:sequence>
-                                                                <xs:element type="xs:string" name="col1"/>
-                                                                <xs:element name="col2">
-                                                                    <xs:simpleType>
-                                                                        <xs:restriction base="xs:decimal">
-                                                                            <xs:fractionDigits value="2"/>
-                                                                        </xs:restriction>
-                                                                    </xs:simpleType>
-                                                                </xs:element>
-                                                            </xs:sequence>
-                                                        </xs:complexType>
-                                                    </xs:element>
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-                                        <xs:element name="burial_or_cremation" minOccurs="0" type="xs:string"/>
-                                        <xs:element name="will">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                    <xs:pattern value="[yYnN]{1}"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element name="promotion_amount" minOccurs="0" maxOccurs="1">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:decimal">
-                                                    <xs:fractionDigits value="2"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                        <xs:element name="wb_site_name" minOccurs="0" type="xs:string"/>
-                                        <xs:element name="wb_area" minOccurs="0" type="xs:string"/>
-                                        <xs:element name="wb_tier_number" minOccurs="0" type="xs:positiveInteger"/>
-                                        <xs:element name="wb_plot_number" minOccurs="0" type="xs:positiveInteger"/>
-                                        <xs:element name="wb_tree_number" minOccurs="0" type="xs:positiveInteger"/>
-                                        <xs:element name="memorial_type" minOccurs="0" type="xs:string"/>
                                         <xs:element name="fd_arrangement_fee" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:decimal">
@@ -331,14 +325,21 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="disclaimer" minOccurs="0" type="xs:string"/>
-                                        <xs:element name="source" minOccurs="0">
+                                        <xs:element name="administration_fee" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                    <xs:pattern value="(tmg|)"/>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:fractionDigits value="2"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
+                                        <xs:element name="total_price" minOccurs="0" maxOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:fractionDigits value="2"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="freeform_text" minOccurs="0"/>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>

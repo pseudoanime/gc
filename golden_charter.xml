@@ -9,6 +9,7 @@
             <payment_type>Single payment</payment_type>
             <payment_party>Plan Holder</payment_party>
             <payment_status></payment_status>
+            <plan_number>20052035</plan_number>
             <member_title>Mr</member_title>
             <member_first_name>Joe</member_first_name>
             <member_last_name>Bloggs</member_last_name>
@@ -17,14 +18,6 @@
             <member_telephone>123456789</member_telephone>
             <member_email>abc@gmail.com</member_email>
             <member_dob>1900-01-01</member_dob>
-            <funeral_director_name>Funeral director name</funeral_director_name>
-            <funeral_director_old_name>Funeral director old name</funeral_director_old_name>
-            <funeral_director_address_line_1>123 Example Street</funeral_director_address_line_1>
-            <funeral_director_postcode>AA1 1ZZ</funeral_director_postcode>
-            <funeral_director_old_address_line_1>Old Address</funeral_director_old_address_line_1>
-            <funeral_director_email>abc@gmail.com</funeral_director_email>
-            <funeral_director_phone>123-123-123</funeral_director_phone>
-            <customer_service_number>12345</customer_service_number>
             <representative_title>Mr</representative_title>
             <representative_first_name>John</representative_first_name>
             <representative_last_name>Doe</representative_last_name>
@@ -32,6 +25,13 @@
             <representative_postcode>AA1 1ZZ</representative_postcode>
             <representative_email>abc@gmail.com</representative_email>
             <representative_relationship>Parent</representative_relationship>
+            <funeral_director_name>Funeral director name</funeral_director_name>
+            <funeral_director_address_line_1>123 Example Street</funeral_director_address_line_1>
+            <funeral_director_postcode>AA1 1ZZ</funeral_director_postcode>
+            <funeral_director_old_name>Funeral director old name</funeral_director_old_name>
+            <funeral_director_old_address_line_1>Old Address</funeral_director_old_address_line_1>
+            <funeral_director_email>abc@gmail.com</funeral_director_email>
+            <funeral_director_phone>123-123-123</funeral_director_phone>
             <next_of_kin_title>Mr</next_of_kin_title>
             <next_of_kin_first_name>John</next_of_kin_first_name>
             <next_of_kin_last_name>Doe</next_of_kin_last_name>
@@ -46,43 +46,43 @@
             <grave_owner_postcode>AA1_1ZZ</grave_owner_postcode>
             <grave_owner_email>abc@gmail.com</grave_owner_email>
             <provider_name>Seller</provider_name>
-            <account_name>abc</account_name>
-            <account_number>12345</account_number>
-            <sort_code>112233</sort_code>
-            <amount_paid>100</amount_paid>
-            <discount>10</discount>
-            <dd_frequency>28</dd_frequency>
-            <deposit>30000</deposit>
-            <monthly_payment>300.09</monthly_payment>
-            <dd_start_month>2017-01-01</dd_start_month>
-            <administration_fee>10.00</administration_fee>
-            <total_price>10000.00</total_price>
-            <sp_overpayment>100.1</sp_overpayment>
+            <customer_service_number>12345</customer_service_number>
             <plan_category>ABC</plan_category>
-            <promotion_date>2018-01-01</promotion_date>
-            <rbl_donation>12.00</rbl_donation>
-            <plan_number>20052035</plan_number>
-            <plan_start_date>2017-11-01</plan_start_date>
+            <tc_date_field>2018-01-01</tc_date_field>
+            <will>Y</will>
             <guaranteed>Y</guaranteed>
             <five_year_guarantee_start_date>2018-01-01</five_year_guarantee_start_date>
             <five_year_guarantee_end_date>2023-01-01</five_year_guarantee_end_date>
+            <source>tmg</source>
+            <amount_paid>100</amount_paid>
+            <deposit>30000</deposit>>
+            <discount>10</discount>
             <sum_assured>2000</sum_assured>
             <sum_assured_plus>3000</sum_assured_plus>
             <funeral_benefit_value>250</funeral_benefit_value>
             <funeral_benefit_value2>50</funeral_benefit_value2>
             <policy_number>12345</policy_number>
-            <service_information>Lorem Ipsum</service_information>
-            <car_number>1</car_number>
+            <promotion_date>2018-01-01</promotion_date>
+            <sp_overpayment>100.1</sp_overpayment>
+            <rbl_donation>12.00</rbl_donation>
+            <account_name>abc</account_name>
+            <account_number>12345</account_number>
+            <sort_code>112233</sort_code>
+            <dd_frequency>28</dd_frequency>
+            <dd_start_date>2017-01-01</dd_start_date>
+            <monthly_payment>300.09</monthly_payment>
+            <plan_start_date>2017-11-01</plan_start_date>
             <place_of_service>name of church</place_of_service>
             <officiant_name>clergy name</officiant_name>
+            <service_information>Lorem Ipsum</service_information>
+            <car_number>1</car_number>
             <burial_cemetery>Cemetery name</burial_cemetery>
+            <coffin>coffin type</coffin>
             <burial_grave_owned>Y</burial_grave_owned>
-            <burial_grave_class>Grave class</burial_grave_class>
-            <burial_grave_section>Grave section</burial_grave_section>
             <burial_lair_number>1234</burial_lair_number>
             <burial_certificate_number>1234</burial_certificate_number>
-            <coffin>coffin type</coffin>
-            <payment_method>Single Payment</payment_method>
+            <burial_grave_class>Grave class</burial_grave_class>
+            <burial_grave_section>Grave section</burial_grave_section>
             <additional_information>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
                 Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
                 Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
@@ -93,28 +93,7 @@
                 pellentesque tincidunt eu vel augue. Nullam sed porttitor mauris. Nullam tristique metus id
                 velit vestibulum, tempor aliquam massa tempor.&#xA;In tincidunt sem ullamcorper erat elementum,
                 ac pretium urna sodales. Suspendisse a congue nunc.&#xA;</additional_information>
-            <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
-                Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
-                Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
-                bibendum pellentesque. Nunc blandit condimentum lorem, ut tempus metus tincidunt et. Nullam vel
-                neque venenatis, malesuada orci tempus, pulvinar odio. Sed et ex cursus velit hendrerit eleifend
-                a a felis. Aenean dolor urna, fringilla a massa vel, consequat ullamcorper sem. Duis nisi lorem,
-                placerat vitae nunc quis, congue laoreet magna. Duis ac luctus lorem. Sed eget ex vitae dolor
-                pellentesque tincidunt eu vel augue. Nullam sed porttitor mauris. Nullam tristique metus id
-                velit vestibulum, tempor aliquam massa tempor.&#xA;In tincidunt sem ullamcorper erat elementum,
-                ac pretium urna sodales. Suspendisse a congue nunc.&#xA;Aliquam erat volutpat. Donec dignissim
-                justo porta sapien faucibus tincidunt. Pellentesque placerat finibus porta. Quisque imperdiet
-                nibh in felis laoreet, ornare egestas orci faucibus. In sed justo ligula. Donec eget magna ut
-                turpis bibendum feugiat non non diam. Pellentesque vel nulla nibh. Nam placerat sit amet lorem
-                at faucibus. Curabitur sed purus dolor. Donec euismo odio nec cursus tristique. Praesent
-                efficitur congue pulvinar.&#xA;Sed gravida lorem orci, idporta mauris luctus et. Phasellus
-                blandit, ante a sollicitudinfaucibus, risus justo interdumdui, at fermentum mi risus et dolor.
-                Etiam interdum tempormattis. Interdum et malesuada fames acante ipsum primis in faucibus. Sed
-                ultrices, libero quisfacilisis eleifend, ligula arcu pretiumneque, ac dapibus eros mauris a
-                urna. Vivamus dignissimeuismod eros, in ultrices leo dignissimac. Nunc semper, nulla id sodales
-                molestie, sapien risusfacilisis sapien, gravida pharetra erosfelis vel arcu. Sed ultricies
-                maximus eleifend.
-            </freeform_text>
+            <payment_method>Single Payment</payment_method>
             <fd_services>
                 <fd_row>
                     <col1>4 x Bearers</col1>
@@ -235,8 +214,30 @@
                     <col2>199.00</col2>
                 </tpc_row>
             </third_party_costs>
-            <will>Y</will>
-            <source>tmg</source>
+            <administration_fee>10.00</administration_fee>
+            <total_price>10000.00</total_price>
+            <freeform_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
+                Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
+                Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
+                bibendum pellentesque. Nunc blandit condimentum lorem, ut tempus metus tincidunt et. Nullam vel
+                neque venenatis, malesuada orci tempus, pulvinar odio. Sed et ex cursus velit hendrerit eleifend
+                a a felis. Aenean dolor urna, fringilla a massa vel, consequat ullamcorper sem. Duis nisi lorem,
+                placerat vitae nunc quis, congue laoreet magna. Duis ac luctus lorem. Sed eget ex vitae dolor
+                pellentesque tincidunt eu vel augue. Nullam sed porttitor mauris. Nullam tristique metus id
+                velit vestibulum, tempor aliquam massa tempor.&#xA;In tincidunt sem ullamcorper erat elementum,
+                ac pretium urna sodales. Suspendisse a congue nunc.&#xA;Aliquam erat volutpat. Donec dignissim
+                justo porta sapien faucibus tincidunt. Pellentesque placerat finibus porta. Quisque imperdiet
+                nibh in felis laoreet, ornare egestas orci faucibus. In sed justo ligula. Donec eget magna ut
+                turpis bibendum feugiat non non diam. Pellentesque vel nulla nibh. Nam placerat sit amet lorem
+                at faucibus. Curabitur sed purus dolor. Donec euismo odio nec cursus tristique. Praesent
+                efficitur congue pulvinar.&#xA;Sed gravida lorem orci, idporta mauris luctus et. Phasellus
+                blandit, ante a sollicitudinfaucibus, risus justo interdumdui, at fermentum mi risus et dolor.
+                Etiam interdum tempormattis. Interdum et malesuada fames acante ipsum primis in faucibus. Sed
+                ultrices, libero quisfacilisis eleifend, ligula arcu pretiumneque, ac dapibus eros mauris a
+                urna. Vivamus dignissimeuismod eros, in ultrices leo dignissimac. Nunc semper, nulla id sodales
+                molestie, sapien risusfacilisis sapien, gravida pharetra erosfelis vel arcu. Sed ultricies
+                maximus eleifend.
+            </freeform_text>
         </record>
     </records>
 </data>
