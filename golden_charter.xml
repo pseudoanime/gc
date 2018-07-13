@@ -4,6 +4,7 @@
     <records>
         <record>
             <trigger_code>100</trigger_code>
+            <raf>y</raf>
             <brander_code>LGC</brander_code>
             <plan_type>Value</plan_type>
             <payment_type>Single payment</payment_type>
