@@ -11,18 +11,18 @@
                                 <xs:complexType mixed="true">
                                     <xs:sequence>
                                         <xs:element type="xs:string" name="trigger_code"/>
-                                        <xs:element name="raf" minOccurs="0">
+                                        <xs:element type="xs:string" name="brander_code"/>
+                                        <xs:element type="xs:string" name="plan_type"/>
+                                        <xs:element type="xs:string" name="payment_type"/>
+                                        <xs:element type="xs:string" name="payment_party"/>
+                                        <xs:element type="xs:string" name="payment_status"/>
+                                        <xs:element name="raf" minOccurs="1">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                     <xs:pattern value="[yYnN]{1}"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element type="xs:string" name="brander_code"/>
-                                        <xs:element type="xs:string" name="plan_type"/>
-                                        <xs:element type="xs:string" name="payment_type"/>
-                                        <xs:element type="xs:string" name="payment_party"/>
-                                        <xs:element type="xs:string" name="payment_status"/>
                                         <xs:element type="xs:int" name="plan_number"/>
                                         <xs:element type="xs:string" name="member_title"/>
                                         <xs:element type="xs:string" name="member_first_name"/>

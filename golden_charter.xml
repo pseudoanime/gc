@@ -4,12 +4,12 @@
     <records>
         <record>
             <trigger_code>100</trigger_code>
-            <raf>y</raf>
             <brander_code>LGC</brander_code>
             <plan_type>Value</plan_type>
             <payment_type>Single payment</payment_type>
             <payment_party>Plan Holder</payment_party>
             <payment_status></payment_status>
+            <raf>y</raf>
             <plan_number>20052035</plan_number>
             <member_title>Mr</member_title>
             <member_first_name>Joe</member_first_name>
