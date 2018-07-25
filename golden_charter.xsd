@@ -12,7 +12,7 @@
                                     <xs:sequence>
                                         <xs:element type="xs:string" name="trigger_code"/>
                                         <xs:element type="xs:string" name="brander_code"/>
-                                        <xs:element type="xs:string" name="plan_type"/>
+                                        <xs:element type="xs:string" name="plan_category"/>
                                         <xs:element type="xs:string" name="payment_type"/>
                                         <xs:element type="xs:string" name="payment_party"/>
                                         <xs:element type="xs:string" name="payment_status"/>
@@ -111,7 +111,7 @@
                                         <xs:element type="xs:string" name="grave_owner_email" minOccurs="0"/>
                                         <xs:element type="xs:string" name="provider_name" minOccurs="0"/>
                                         <xs:element type="xs:string" name="customer_service_number"/>
-                                        <xs:element type="xs:string" name="plan_category"/>
+                                        <xs:element type="xs:string" name="plan_type"/>
                                         <xs:element type="xs:date" name="tc_date_field"/>
                                         <xs:element name="will">
                                             <xs:simpleType>

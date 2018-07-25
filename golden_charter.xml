@@ -5,7 +5,7 @@
         <record>
             <trigger_code>100</trigger_code>
             <brander_code>LGC</brander_code>
-            <plan_type>Value</plan_type>
+            <plan_category>Value</plan_category>
             <payment_type>Single payment</payment_type>
             <payment_party>Plan Holder</payment_party>
             <payment_status></payment_status>
@@ -48,7 +48,7 @@
             <grave_owner_email>abc@gmail.com</grave_owner_email>
             <provider_name>Seller</provider_name>
             <customer_service_number>12345</customer_service_number>
-            <plan_category>ABC</plan_category>
+            <plan_type>ABC</plan_type>
             <tc_date_field>2018-01-01</tc_date_field>
             <will>Y</will>
             <guaranteed>Y</guaranteed>
