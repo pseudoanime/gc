@@ -8,7 +8,7 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="record" minOccurs="1" maxOccurs="unbounded">
-                                <xs:complexType mixed="true">
+                                <xs:complexType>
                                     <xs:sequence>
                                         <xs:element type="xs:string" name="trigger_code"/>
                                         <xs:element type="xs:string" name="brander_code"/>
