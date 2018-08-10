@@ -113,6 +113,13 @@
                                         <xs:element type="xs:string" name="customer_service_number"/>
                                         <xs:element type="xs:string" name="plan_type"/>
                                         <xs:element type="xs:date" name="tc_date_field"/>
+                                        <xs:element name="seller_type">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="(AP|CR|FD|MA|SC|D2C|)"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element name="will">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
