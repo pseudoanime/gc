@@ -266,7 +266,7 @@
                                             </xs:simpleType>
                                         </xs:element>
                                         <xs:element type="xs:string" name="burial_lair_number" minOccurs="0"/>
-                                        <xs:element type="xs:integer" name="burial_certificate_number" minOccurs="0"/>
+                                        <xs:element type="xs:string" name="burial_certificate_number" minOccurs="0"/>
                                         <xs:element type="xs:string" name="burial_grave_class" minOccurs="0"/>
                                         <xs:element type="xs:string" name="burial_grave_section" minOccurs="0"/>
                                         <xs:element name="memorial_type" minOccurs="0" type="xs:string"/>
