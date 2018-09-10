@@ -219,7 +219,7 @@
                                         <xs:element type="xs:string" name="account_name" minOccurs="0"/>
                                         <xs:element type="xs:float" name="account_number" minOccurs="0"/>
                                         <xs:element type="xs:string" name="sort_code" minOccurs="0"/>
-                                        <xs:element name="dd_frequency">
+                                        <xs:element name="dd_frequency" minOccurs="0">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:positiveInteger">
                                                     <xs:minInclusive value="1"/>
@@ -244,7 +244,7 @@
                                         <xs:element type="xs:date" name="plan_start_date"/>
                                         <xs:element type="xs:string" name="place_of_service" minOccurs="0"/>
                                         <xs:element type="xs:string" name="officiant_name" minOccurs="0"/>
-                                        <xs:element name="burial_or_cremation" minOccurs="0" type="xs:string"/>
+                                        <xs:element name="burial_or_cremation" type="xs:string"/>
                                         <xs:element type="xs:string" name="service_information" minOccurs="0"/>
                                         <xs:element name="car_number" minOccurs="0">
                                             <xs:simpleType>
