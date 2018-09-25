@@ -68,7 +68,7 @@
                                                     minOccurs="0"/>
                                         <xs:element type="xs:string" name="funeral_director_address_line_6"
                                                     minOccurs="0"/>
-                                        <xs:element type="xs:string" name="funeral_director_postcode"/>
+                                        <xs:element type="xs:string" name="funeral_director_postcode" minOccurs="0"/>
                                         <xs:element type="xs:string" name="funeral_director_old_name" minOccurs="0"/>
                                         <xs:element type="xs:string" name="funeral_director_old_address_line_1"
                                                     minOccurs="0"/>
