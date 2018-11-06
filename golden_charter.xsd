@@ -237,13 +237,6 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="fd_guarantee_premium" minOccurs="0">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:string">
-                                                    <xs:pattern value="[a-zA-Z]{1}"/>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
                                         <xs:element name="num_dd_installments" minOccurs="0" type="xs:positiveInteger"/>
                                         <xs:element type="xs:float" name="final_dd_amount" minOccurs="0"/>
                                         <xs:element name="wb_site_name" minOccurs="0" type="xs:string"/>
@@ -280,6 +273,13 @@
                                         <xs:element type="xs:string" name="burial_grave_class" minOccurs="0"/>
                                         <xs:element type="xs:string" name="burial_grave_section" minOccurs="0"/>
                                         <xs:element name="memorial_type" minOccurs="0" type="xs:string"/>
+                                        <xs:element name="fd_guarantee_premium" minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[a-zA-Z]{1}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element type="xs:string" name="additional_information" minOccurs="0"/>
                                         <xs:element type="xs:string" name="payment_method"/>
                                         <xs:element name="personalisation_options" minOccurs="0">
