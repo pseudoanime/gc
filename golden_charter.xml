@@ -62,7 +62,6 @@
             <sum_assured>2000</sum_assured>
             <sum_assured_plus>3000</sum_assured_plus>
             <funeral_benefit_value>250</funeral_benefit_value>
-            <funeral_benefit_value2>50</funeral_benefit_value2>
             <policy_number>12345</policy_number>
             <promotion_date>2018-01-01</promotion_date>
             <sp_overpayment>100.1</sp_overpayment>
@@ -73,7 +72,6 @@
             <dd_frequency>28</dd_frequency>
             <dd_start_date>2017-01-01</dd_start_date>
             <monthly_payment>300.09</monthly_payment>
-            <fd_guarantee_premium>X</fd_guarantee_premium>
             <num_dd_installments>10</num_dd_installments>
             <final_dd_amount>183.22</final_dd_amount>
             <plan_start_date>2017-11-01</plan_start_date>
@@ -89,6 +87,7 @@
             <burial_certificate_number>1234</burial_certificate_number>
             <burial_grave_class>Grave class</burial_grave_class>
             <burial_grave_section>Grave section</burial_grave_section>
+            <fd_guarantee_premium>Xsfgdf</fd_guarantee_premium>
             <additional_information>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget fringilla diam.
                 Fusce sollicitudin nisi sed risus facilisis dictum. Nunc lacinia sollicitudin pulvinar.
                 Pellentesque vel finibus neque. Nam non dolor ut mauris dictum pharetra. Fusce fringilla
