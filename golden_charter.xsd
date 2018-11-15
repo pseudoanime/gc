@@ -231,7 +231,13 @@
                                             </xs:simpleType>
                                         </xs:element>
                                         <xs:element name="num_dd_installments" minOccurs="0" type="xs:positiveInteger"/>
-                                        <xs:element type="xs:float" name="final_dd_amount" minOccurs="0"/>
+                                        <xs:element type="xs:float" name="final_dd_amount" minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:fractionDigits value="2"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element name="wb_site_name" minOccurs="0" type="xs:string"/>
                                         <xs:element name="wb_area" minOccurs="0" type="xs:string"/>
                                         <xs:element name="wb_tier_number" minOccurs="0" type="xs:positiveInteger"/>
