@@ -230,7 +230,7 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="num_dd_installments" minOccurs="0" type="xs:positiveInteger"/>
+                                        <xs:element name="num_dd_installments" minOccurs="0" type="xs:nonNegativeInteger"/>
                                         <xs:element name="final_dd_amount" minOccurs="0">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:decimal">
