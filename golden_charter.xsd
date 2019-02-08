@@ -188,6 +188,13 @@
                                             </xs:simpleType>
                                         </xs:element>
                                         <xs:element type="xs:string" name="policy_number" minOccurs="0"/>
+                                        <xs:element name="fbo_dual_pol">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[AB]{1}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element type="xs:date" name="promotion_date" minOccurs="0"/>
                                         <xs:element name="promotion_amount" minOccurs="0" maxOccurs="1">
                                             <xs:simpleType>

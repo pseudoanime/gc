@@ -63,6 +63,7 @@
             <sum_assured_plus>3000</sum_assured_plus>
             <funeral_benefit_value>250</funeral_benefit_value>
             <policy_number>12345</policy_number>
+            <fbo_dual_pol>A</fbo_dual_pol>
             <promotion_date>2018-01-01</promotion_date>
             <sp_overpayment>100.1</sp_overpayment>
             <rbl_donation>12.00</rbl_donation>
